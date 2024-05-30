@@ -1,5 +1,4 @@
-<h2 align="center"><b><Compositional Generalization with Grounded Language Models</h2><br></b>
-
+<h2 align="center"><b>Compositional Generalization with Grounded Language Models</h2><br></b>
 
 <p align="center">
   <b>Sondre Wold, Étienne Simon, Lucas Georges Gabriel Charpentier, Egor V. Kostylev, Erik Velldal, Lilja Øvrelid</b>
