@@ -7,29 +7,13 @@
 
 <p align="center">
   <i>
-    <sup>*</sup>University of Oslo<br>
+    University of Oslo<br>
   </i>
   <br>
 </p>
 <br>
-Grounded language models use external sources of information, such as
-knowledge graphs, to meet some of the general challenges associated with
-pre-training. By extending previous work on compositional generalization in
-semantic parsing, we allow for a controlled evaluation of the degree to
-which grounded language models can learn and generalize from patterns in
-knowledge graphs. We develop a procedure for generating natural language
-questions paired with knowledge graphs that targets different aspects of
-compositionality and further avoids grounding the language models in
-information already encoded implicitly in their weights. We evaluate
-existing methods for combining language models with knowledge graphs and
-find that all of them struggle with generalization to sequences of unseen
-lengths and to novel combinations of seen base components. While our
-experimental results provide some insight into the expressive power of
-these models, we hope our work and released datasets motivate future
-research on how to better combine language models with structured knowledge
-representations.
 <p align="center">
-  <a href="https://arxiv.org/abs/2404.01196"><b>Paper</b></a><br>
+  <a href=""><b>Paper</b></a><br>
 </p>
 
 _______
