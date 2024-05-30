@@ -1,0 +1,1784 @@
+{
+    "100": {
+        "mapping": "TODO",
+        "type": [
+            "advisor",
+            "advisor_r",
+            "takesCourse",
+            "teachingAssistantOf_r"
+        ]
+    },
+    "101": {
+        "mapping": "TODO",
+        "type": [
+            "teacherOf_r",
+            "teacherOf",
+            "teachingAssistantOf_r",
+            "takesCourse"
+        ]
+    },
+    "102": {
+        "mapping": "TODO",
+        "type": [
+            "advisor_r",
+            "teachingAssistantOf",
+            "teacherOf_r",
+            "advisor_r"
+        ]
+    },
+    "103": {
+        "mapping": "TODO",
+        "type": [
+            "advisor_r",
+            "takesCourse",
+            "teachingAssistantOf_r",
+            "advisor"
+        ]
+    },
+    "104": {
+        "mapping": "TODO",
+        "type": [
+            "teacherOf_r",
+            "publicationAuthor_r",
+            "publicationAuthor",
+            "publicationAuthor_r"
+        ]
+    },
+    "105": {
+        "mapping": "TODO",
+        "type": [
+            "teacherOf_r",
+            "advisor_r",
+            "teachingAssistantOf",
+            "takesCourse_r"
+        ]
+    },
+    "106": {
+        "mapping": "TODO",
+        "type": [
+            "advisor",
+            "advisor_r",
+            "teachingAssistantOf",
+            "teacherOf_r"
+        ]
+    },
+    "107": {
+        "mapping": "TODO",
+        "type": [
+            "takesCourse",
+            "teachingAssistantOf_r",
+            "advisor",
+            "teacherOf"
+        ]
+    },
+    "108": {
+        "mapping": "TODO",
+        "type": [
+            "teacherOf",
+            "takesCourse_r",
+            "takesCourse",
+            "takesCourse_r"
+        ]
+    },
+    "109": {
+        "mapping": "TODO",
+        "type": [
+            "teacherOf",
+            "teachingAssistantOf_r",
+            "advisor",
+            "publicationAuthor_r"
+        ]
+    },
+    "110": {
+        "mapping": "TODO",
+        "type": [
+            "advisor",
+            "teacherOf",
+            "takesCourse_r",
+            "teachingAssistantOf"
+        ]
+    },
+    "111": {
+        "mapping": "TODO",
+        "type": [
+            "publicationAuthor",
+            "teacherOf",
+            "takesCourse_r",
+            "publicationAuthor_r"
+        ]
+    },
+    "112": {
+        "mapping": "TODO",
+        "type": [
+            "advisor",
+            "advisor_r",
+            "takesCourse",
+            "takesCourse_r"
+        ]
+    },
+    "113": {
+        "mapping": "TODO",
+        "type": [
+            "teachingAssistantOf_r",
+            "advisor",
+            "teacherOf",
+            "takesCourse_r"
+        ]
+    },
+    "114": {
+        "mapping": "TODO",
+        "type": [
+            "takesCourse_r",
+            "takesCourse",
+            "teacherOf_r",
+            "teacherOf"
+        ]
+    },
+    "115": {
+        "mapping": "TODO",
+        "type": [
+            "teachingAssistantOf_r",
+            "publicationAuthor_r",
+            "publicationAuthor",
+            "takesCourse"
+        ]
+    },
+    "116": {
+        "mapping": "TODO",
+        "type": [
+            "publicationAuthor_r",
+            "publicationAuthor",
+            "takesCourse",
+            "teacherOf_r"
+        ]
+    },
+    "117": {
+        "mapping": "TODO",
+        "type": [
+            "takesCourse_r",
+            "teachingAssistantOf",
+            "takesCourse_r",
+            "takesCourse"
+        ]
+    },
+    "118": {
+        "mapping": "TODO",
+        "type": [
+            "advisor_r",
+            "publicationAuthor_r",
+            "publicationAuthor",
+            "teacherOf"
+        ]
+    },
+    "119": {
+        "mapping": "TODO",
+        "type": [
+            "takesCourse_r",
+            "teachingAssistantOf",
+            "teacherOf_r",
+            "teacherOf"
+        ]
+    },
+    "120": {
+        "mapping": "TODO",
+        "type": [
+            "advisor_r",
+            "teachingAssistantOf",
+            "teacherOf_r",
+            "publicationAuthor_r"
+        ]
+    },
+    "121": {
+        "mapping": "TODO",
+        "type": [
+            "teacherOf_r",
+            "advisor_r",
+            "takesCourse",
+            "teacherOf_r"
+        ]
+    },
+    "122": {
+        "mapping": "TODO",
+        "type": [
+            "advisor_r",
+            "takesCourse",
+            "takesCourse_r",
+            "publicationAuthor_r"
+        ]
+    },
+    "123": {
+        "mapping": "TODO",
+        "type": [
+            "teacherOf_r",
+            "publicationAuthor_r",
+            "publicationAuthor",
+            "takesCourse"
+        ]
+    },
+    "124": {
+        "mapping": "TODO",
+        "type": [
+            "publicationAuthor",
+            "takesCourse",
+            "takesCourse_r",
+            "teachingAssistantOf"
+        ]
+    },
+    "125": {
+        "mapping": "TODO",
+        "type": [
+            "takesCourse",
+            "teachingAssistantOf_r",
+            "takesCourse",
+            "takesCourse_r"
+        ]
+    },
+    "126": {
+        "mapping": "TODO",
+        "type": [
+            "takesCourse",
+            "takesCourse_r",
+            "advisor",
+            "teacherOf"
+        ]
+    },
+    "127": {
+        "mapping": "TODO",
+        "type": [
+            "teacherOf",
+            "takesCourse_r",
+            "publicationAuthor_r",
+            "publicationAuthor"
+        ]
+    },
+    "128": {
+        "mapping": "TODO",
+        "type": [
+            "publicationAuthor",
+            "teacherOf",
+            "takesCourse_r",
+            "takesCourse"
+        ]
+    },
+    "129": {
+        "mapping": "TODO",
+        "type": [
+            "takesCourse",
+            "takesCourse_r",
+            "takesCourse",
+            "teacherOf_r"
+        ]
+    },
+    "130": {
+        "mapping": "TODO",
+        "type": [
+            "publicationAuthor",
+            "publicationAuthor_r",
+            "publicationAuthor",
+            "teacherOf"
+        ]
+    },
+    "131": {
+        "mapping": "TODO",
+        "type": [
+            "advisor",
+            "teacherOf",
+            "takesCourse_r",
+            "takesCourse"
+        ]
+    },
+    "132": {
+        "mapping": "TODO",
+        "type": [
+            "teacherOf_r",
+            "teacherOf",
+            "takesCourse_r",
+            "advisor"
+        ]
+    },
+    "133": {
+        "mapping": "TODO",
+        "type": [
+            "advisor_r",
+            "takesCourse",
+            "takesCourse_r",
+            "takesCourse"
+        ]
+    },
+    "134": {
+        "mapping": "TODO",
+        "type": [
+            "takesCourse_r",
+            "takesCourse",
+            "teachingAssistantOf_r",
+            "advisor"
+        ]
+    },
+    "135": {
+        "mapping": "TODO",
+        "type": [
+            "takesCourse",
+            "takesCourse_r",
+            "teachingAssistantOf",
+            "teacherOf_r"
+        ]
+    },
+    "136": {
+        "mapping": "TODO",
+        "type": [
+            "teachingAssistantOf_r",
+            "publicationAuthor_r",
+            "publicationAuthor",
+            "advisor_r"
+        ]
+    },
+    "137": {
+        "mapping": "TODO",
+        "type": [
+            "advisor_r",
+            "takesCourse",
+            "teacherOf_r",
+            "teacherOf"
+        ]
+    },
+    "138": {
+        "mapping": "TODO",
+        "type": [
+            "teachingAssistantOf_r",
+            "takesCourse",
+            "takesCourse_r",
+            "advisor"
+        ]
+    },
+    "139": {
+        "mapping": "TODO",
+        "type": [
+            "teacherOf_r",
+            "publicationAuthor_r",
+            "publicationAuthor",
+            "advisor_r"
+        ]
+    },
+    "140": {
+        "mapping": "TODO",
+        "type": [
+            "takesCourse_r",
+            "publicationAuthor_r",
+            "publicationAuthor",
+            "teacherOf"
+        ]
+    },
+    "141": {
+        "mapping": "TODO",
+        "type": [
+            "teachingAssistantOf_r",
+            "publicationAuthor_r",
+            "publicationAuthor",
+            "teachingAssistantOf"
+        ]
+    },
+    "142": {
+        "mapping": "TODO",
+        "type": [
+            "takesCourse_r",
+            "takesCourse",
+            "takesCourse_r",
+            "publicationAuthor_r"
+        ]
+    },
+    "143": {
+        "mapping": "TODO",
+        "type": [
+            "publicationAuthor",
+            "advisor",
+            "advisor_r",
+            "publicationAuthor_r"
+        ]
+    },
+    "144": {
+        "mapping": "TODO",
+        "type": [
+            "advisor_r",
+            "publicationAuthor_r",
+            "publicationAuthor",
+            "advisor"
+        ]
+    },
+    "145": {
+        "mapping": "TODO",
+        "type": [
+            "publicationAuthor",
+            "advisor_r",
+            "takesCourse",
+            "teacherOf_r"
+        ]
+    },
+    "146": {
+        "mapping": "TODO",
+        "type": [
+            "teacherOf_r",
+            "publicationAuthor_r",
+            "publicationAuthor",
+            "teachingAssistantOf"
+        ]
+    },
+    "147": {
+        "mapping": "TODO",
+        "type": [
+            "teachingAssistantOf",
+            "takesCourse_r",
+            "takesCourse",
+            "teachingAssistantOf_r"
+        ]
+    },
+    "148": {
+        "mapping": "TODO",
+        "type": [
+            "advisor",
+            "publicationAuthor_r",
+            "publicationAuthor",
+            "advisor"
+        ]
+    },
+    "149": {
+        "mapping": "TODO",
+        "type": [
+            "publicationAuthor",
+            "advisor",
+            "publicationAuthor_r",
+            "publicationAuthor"
+        ]
+    },
+    "150": {
+        "mapping": "TODO",
+        "type": [
+            "publicationAuthor",
+            "teacherOf",
+            "takesCourse_r",
+            "teachingAssistantOf"
+        ]
+    },
+    "151": {
+        "mapping": "TODO",
+        "type": [
+            "advisor",
+            "teacherOf",
+            "teachingAssistantOf_r",
+            "publicationAuthor_r"
+        ]
+    },
+    "152": {
+        "mapping": "TODO",
+        "type": [
+            "publicationAuthor",
+            "takesCourse",
+            "takesCourse_r",
+            "advisor"
+        ]
+    },
+    "153": {
+        "mapping": "TODO",
+        "type": [
+            "publicationAuthor_r",
+            "publicationAuthor",
+            "advisor",
+            "teacherOf"
+        ]
+    },
+    "154": {
+        "mapping": "TODO",
+        "type": [
+            "teacherOf",
+            "teachingAssistantOf_r",
+            "publicationAuthor_r",
+            "publicationAuthor"
+        ]
+    },
+    "155": {
+        "mapping": "TODO",
+        "type": [
+            "publicationAuthor_r",
+            "publicationAuthor",
+            "teacherOf",
+            "takesCourse_r"
+        ]
+    },
+    "156": {
+        "mapping": "TODO",
+        "type": [
+            "publicationAuthor",
+            "publicationAuthor_r",
+            "publicationAuthor",
+            "advisor"
+        ]
+    },
+    "157": {
+        "mapping": "TODO",
+        "type": [
+            "advisor_r",
+            "teachingAssistantOf",
+            "takesCourse_r",
+            "takesCourse"
+        ]
+    },
+    "158": {
+        "mapping": "TODO",
+        "type": [
+            "teachingAssistantOf",
+            "takesCourse_r",
+            "takesCourse",
+            "takesCourse_r"
+        ]
+    },
+    "159": {
+        "mapping": "TODO",
+        "type": [
+            "takesCourse_r",
+            "takesCourse",
+            "takesCourse_r",
+            "takesCourse"
+        ]
+    },
+    "160": {
+        "mapping": "TODO",
+        "type": [
+            "advisor_r",
+            "takesCourse",
+            "teachingAssistantOf_r",
+            "publicationAuthor_r"
+        ]
+    },
+    "161": {
+        "mapping": "TODO",
+        "type": [
+            "teacherOf",
+            "takesCourse_r",
+            "advisor",
+            "advisor_r"
+        ]
+    },
+    "162": {
+        "mapping": "TODO",
+        "type": [
+            "publicationAuthor",
+            "advisor",
+            "advisor_r",
+            "takesCourse"
+        ]
+    },
+    "163": {
+        "mapping": "TODO",
+        "type": [
+            "takesCourse",
+            "takesCourse_r",
+            "advisor",
+            "publicationAuthor_r"
+        ]
+    },
+    "164": {
+        "mapping": "TODO",
+        "type": [
+            "advisor_r",
+            "takesCourse",
+            "takesCourse_r",
+            "teachingAssistantOf"
+        ]
+    },
+    "165": {
+        "mapping": "TODO",
+        "type": [
+            "teachingAssistantOf_r",
+            "takesCourse",
+            "teacherOf_r",
+            "teacherOf"
+        ]
+    },
+    "166": {
+        "mapping": "TODO",
+        "type": [
+            "advisor",
+            "teacherOf",
+            "teachingAssistantOf_r",
+            "takesCourse"
+        ]
+    },
+    "167": {
+        "mapping": "TODO",
+        "type": [
+            "advisor",
+            "publicationAuthor_r",
+            "publicationAuthor",
+            "teacherOf"
+        ]
+    },
+    "168": {
+        "mapping": "TODO",
+        "type": [
+            "publicationAuthor",
+            "teachingAssistantOf",
+            "teacherOf_r",
+            "teacherOf"
+        ]
+    },
+    "169": {
+        "mapping": "TODO",
+        "type": [
+            "advisor",
+            "advisor_r",
+            "teachingAssistantOf",
+            "takesCourse_r"
+        ]
+    },
+    "170": {
+        "mapping": "TODO",
+        "type": [
+            "advisor",
+            "advisor_r",
+            "publicationAuthor_r",
+            "publicationAuthor"
+        ]
+    },
+    "171": {
+        "mapping": "TODO",
+        "type": [
+            "takesCourse_r",
+            "advisor",
+            "advisor_r",
+            "publicationAuthor_r"
+        ]
+    },
+    "172": {
+        "mapping": "TODO",
+        "type": [
+            "teacherOf",
+            "takesCourse_r",
+            "advisor",
+            "publicationAuthor_r"
+        ]
+    },
+    "173": {
+        "mapping": "TODO",
+        "type": [
+            "takesCourse",
+            "teacherOf_r",
+            "advisor_r",
+            "publicationAuthor_r"
+        ]
+    },
+    "174": {
+        "mapping": "TODO",
+        "type": [
+            "advisor_r",
+            "takesCourse",
+            "teachingAssistantOf_r",
+            "takesCourse"
+        ]
+    },
+    "175": {
+        "mapping": "TODO",
+        "type": [
+            "publicationAuthor_r",
+            "publicationAuthor",
+            "teachingAssistantOf",
+            "teacherOf_r"
+        ]
+    },
+    "176": {
+        "mapping": "TODO",
+        "type": [
+            "takesCourse_r",
+            "publicationAuthor_r",
+            "publicationAuthor",
+            "advisor"
+        ]
+    },
+    "177": {
+        "mapping": "TODO",
+        "type": [
+            "publicationAuthor_r",
+            "publicationAuthor",
+            "takesCourse",
+            "takesCourse_r"
+        ]
+    },
+    "178": {
+        "mapping": "TODO",
+        "type": [
+            "teacherOf_r",
+            "advisor_r",
+            "teachingAssistantOf",
+            "teacherOf_r"
+        ]
+    },
+    "179": {
+        "mapping": "TODO",
+        "type": [
+            "publicationAuthor_r",
+            "publicationAuthor",
+            "advisor_r",
+            "publicationAuthor_r"
+        ]
+    },
+    "180": {
+        "mapping": "TODO",
+        "type": [
+            "takesCourse",
+            "takesCourse_r",
+            "takesCourse",
+            "teachingAssistantOf_r"
+        ]
+    },
+    "181": {
+        "mapping": "TODO",
+        "type": [
+            "publicationAuthor",
+            "takesCourse",
+            "teacherOf_r",
+            "publicationAuthor_r"
+        ]
+    },
+    "182": {
+        "mapping": "TODO",
+        "type": [
+            "teacherOf_r",
+            "teacherOf",
+            "takesCourse_r",
+            "publicationAuthor_r"
+        ]
+    },
+    "183": {
+        "mapping": "TODO",
+        "type": [
+            "takesCourse",
+            "teachingAssistantOf_r",
+            "advisor",
+            "advisor_r"
+        ]
+    },
+    "184": {
+        "mapping": "TODO",
+        "type": [
+            "teachingAssistantOf",
+            "takesCourse_r",
+            "advisor",
+            "publicationAuthor_r"
+        ]
+    },
+    "185": {
+        "mapping": "TODO",
+        "type": [
+            "takesCourse_r",
+            "advisor",
+            "publicationAuthor_r",
+            "publicationAuthor"
+        ]
+    },
+    "186": {
+        "mapping": "TODO",
+        "type": [
+            "takesCourse_r",
+            "advisor",
+            "advisor_r",
+            "takesCourse"
+        ]
+    },
+    "187": {
+        "mapping": "TODO",
+        "type": [
+            "takesCourse",
+            "teacherOf_r",
+            "publicationAuthor_r",
+            "publicationAuthor"
+        ]
+    },
+    "188": {
+        "mapping": "TODO",
+        "type": [
+            "takesCourse",
+            "takesCourse_r",
+            "takesCourse",
+            "takesCourse_r"
+        ]
+    },
+    "189": {
+        "mapping": "TODO",
+        "type": [
+            "takesCourse",
+            "teacherOf_r",
+            "advisor_r",
+            "takesCourse"
+        ]
+    },
+    "190": {
+        "mapping": "TODO",
+        "type": [
+            "teacherOf",
+            "takesCourse_r",
+            "teachingAssistantOf",
+            "teacherOf_r"
+        ]
+    },
+    "191": {
+        "mapping": "TODO",
+        "type": [
+            "advisor",
+            "teacherOf",
+            "takesCourse_r",
+            "advisor"
+        ]
+    },
+    "192": {
+        "mapping": "TODO",
+        "type": [
+            "takesCourse_r",
+            "takesCourse",
+            "takesCourse_r",
+            "teachingAssistantOf"
+        ]
+    },
+    "193": {
+        "mapping": "TODO",
+        "type": [
+            "publicationAuthor_r",
+            "publicationAuthor",
+            "publicationAuthor_r",
+            "publicationAuthor"
+        ]
+    },
+    "194": {
+        "mapping": "TODO",
+        "type": [
+            "publicationAuthor",
+            "advisor",
+            "advisor_r",
+            "teachingAssistantOf"
+        ]
+    },
+    "195": {
+        "mapping": "TODO",
+        "type": [
+            "takesCourse_r",
+            "teachingAssistantOf",
+            "teacherOf_r",
+            "advisor_r"
+        ]
+    },
+    "196": {
+        "mapping": "TODO",
+        "type": [
+            "teachingAssistantOf_r",
+            "publicationAuthor_r",
+            "publicationAuthor",
+            "teacherOf"
+        ]
+    },
+    "197": {
+        "mapping": "TODO",
+        "type": [
+            "takesCourse",
+            "teachingAssistantOf_r",
+            "advisor",
+            "publicationAuthor_r"
+        ]
+    },
+    "198": {
+        "mapping": "TODO",
+        "type": [
+            "teacherOf_r",
+            "teacherOf",
+            "takesCourse_r",
+            "takesCourse"
+        ]
+    },
+    "199": {
+        "mapping": "TODO",
+        "type": [
+            "takesCourse",
+            "takesCourse_r",
+            "teachingAssistantOf",
+            "takesCourse_r"
+        ]
+    },
+    "200": {
+        "mapping": "TODO",
+        "type": [
+            "takesCourse",
+            "teachingAssistantOf_r",
+            "publicationAuthor_r",
+            "publicationAuthor"
+        ]
+    },
+    "201": {
+        "mapping": "TODO",
+        "type": [
+            "advisor_r",
+            "takesCourse",
+            "takesCourse_r",
+            "advisor"
+        ]
+    },
+    "202": {
+        "mapping": "TODO",
+        "type": [
+            "publicationAuthor_r",
+            "publicationAuthor",
+            "teacherOf",
+            "teachingAssistantOf_r"
+        ]
+    },
+    "203": {
+        "mapping": "TODO",
+        "type": [
+            "takesCourse",
+            "takesCourse_r",
+            "advisor",
+            "advisor_r"
+        ]
+    },
+    "204": {
+        "mapping": "TODO",
+        "type": [
+            "teachingAssistantOf",
+            "teacherOf_r",
+            "teacherOf",
+            "takesCourse_r"
+        ]
+    },
+    "205": {
+        "mapping": "TODO",
+        "type": [
+            "publicationAuthor",
+            "teacherOf",
+            "teachingAssistantOf_r",
+            "publicationAuthor_r"
+        ]
+    },
+    "206": {
+        "mapping": "TODO",
+        "type": [
+            "teacherOf_r",
+            "publicationAuthor_r",
+            "publicationAuthor",
+            "teacherOf"
+        ]
+    },
+    "207": {
+        "mapping": "TODO",
+        "type": [
+            "teachingAssistantOf_r",
+            "takesCourse",
+            "takesCourse_r",
+            "publicationAuthor_r"
+        ]
+    },
+    "208": {
+        "mapping": "TODO",
+        "type": [
+            "takesCourse_r",
+            "takesCourse",
+            "teacherOf_r",
+            "publicationAuthor_r"
+        ]
+    },
+    "209": {
+        "mapping": "TODO",
+        "type": [
+            "advisor_r",
+            "publicationAuthor_r",
+            "publicationAuthor",
+            "publicationAuthor_r"
+        ]
+    },
+    "210": {
+        "mapping": "TODO",
+        "type": [
+            "publicationAuthor",
+            "advisor_r",
+            "takesCourse",
+            "teachingAssistantOf_r"
+        ]
+    },
+    "211": {
+        "mapping": "TODO",
+        "type": [
+            "takesCourse_r",
+            "teachingAssistantOf",
+            "teacherOf_r",
+            "publicationAuthor_r"
+        ]
+    },
+    "212": {
+        "mapping": "TODO",
+        "type": [
+            "advisor",
+            "publicationAuthor_r",
+            "publicationAuthor",
+            "publicationAuthor_r"
+        ]
+    },
+    "213": {
+        "mapping": "TODO",
+        "type": [
+            "publicationAuthor",
+            "advisor",
+            "teacherOf",
+            "takesCourse_r"
+        ]
+    },
+    "214": {
+        "mapping": "TODO",
+        "type": [
+            "publicationAuthor",
+            "advisor_r",
+            "teachingAssistantOf",
+            "teacherOf_r"
+        ]
+    },
+    "215": {
+        "mapping": "TODO",
+        "type": [
+            "teachingAssistantOf_r",
+            "takesCourse",
+            "takesCourse_r",
+            "takesCourse"
+        ]
+    },
+    "216": {
+        "mapping": "TODO",
+        "type": [
+            "publicationAuthor",
+            "teacherOf",
+            "teachingAssistantOf_r",
+            "takesCourse"
+        ]
+    },
+    "217": {
+        "mapping": "TODO",
+        "type": [
+            "publicationAuthor",
+            "advisor_r",
+            "takesCourse",
+            "takesCourse_r"
+        ]
+    },
+    "218": {
+        "mapping": "TODO",
+        "type": [
+            "teacherOf",
+            "teachingAssistantOf_r",
+            "takesCourse",
+            "teacherOf_r"
+        ]
+    },
+    "219": {
+        "mapping": "TODO",
+        "type": [
+            "publicationAuthor",
+            "publicationAuthor_r",
+            "publicationAuthor",
+            "publicationAuthor_r"
+        ]
+    },
+    "220": {
+        "mapping": "TODO",
+        "type": [
+            "publicationAuthor",
+            "teachingAssistantOf",
+            "takesCourse_r",
+            "takesCourse"
+        ]
+    },
+    "221": {
+        "mapping": "TODO",
+        "type": [
+            "takesCourse_r",
+            "advisor",
+            "advisor_r",
+            "teachingAssistantOf"
+        ]
+    },
+    "222": {
+        "mapping": "TODO",
+        "type": [
+            "teacherOf_r",
+            "teacherOf",
+            "teachingAssistantOf_r",
+            "advisor"
+        ]
+    },
+    "223": {
+        "mapping": "TODO",
+        "type": [
+            "advisor_r",
+            "publicationAuthor_r",
+            "publicationAuthor",
+            "takesCourse"
+        ]
+    },
+    "224": {
+        "mapping": "TODO",
+        "type": [
+            "publicationAuthor",
+            "takesCourse",
+            "teacherOf_r",
+            "advisor_r"
+        ]
+    },
+    "225": {
+        "mapping": "TODO",
+        "type": [
+            "takesCourse",
+            "teacherOf_r",
+            "advisor_r",
+            "teachingAssistantOf"
+        ]
+    },
+    "226": {
+        "mapping": "TODO",
+        "type": [
+            "teacherOf_r",
+            "advisor_r",
+            "takesCourse",
+            "teachingAssistantOf_r"
+        ]
+    },
+    "227": {
+        "mapping": "TODO",
+        "type": [
+            "teachingAssistantOf",
+            "takesCourse_r",
+            "advisor",
+            "advisor_r"
+        ]
+    },
+    "228": {
+        "mapping": "TODO",
+        "type": [
+            "publicationAuthor_r",
+            "publicationAuthor",
+            "advisor_r",
+            "teachingAssistantOf"
+        ]
+    },
+    "229": {
+        "mapping": "TODO",
+        "type": [
+            "teachingAssistantOf",
+            "teacherOf_r",
+            "publicationAuthor_r",
+            "publicationAuthor"
+        ]
+    },
+    "230": {
+        "mapping": "TODO",
+        "type": [
+            "teachingAssistantOf_r",
+            "advisor",
+            "advisor_r",
+            "publicationAuthor_r"
+        ]
+    },
+    "231": {
+        "mapping": "TODO",
+        "type": [
+            "advisor_r",
+            "takesCourse",
+            "teacherOf_r",
+            "publicationAuthor_r"
+        ]
+    },
+    "232": {
+        "mapping": "TODO",
+        "type": [
+            "teacherOf",
+            "takesCourse_r",
+            "takesCourse",
+            "teacherOf_r"
+        ]
+    },
+    "233": {
+        "mapping": "TODO",
+        "type": [
+            "publicationAuthor",
+            "publicationAuthor_r",
+            "publicationAuthor",
+            "takesCourse"
+        ]
+    },
+    "234": {
+        "mapping": "TODO",
+        "type": [
+            "teacherOf_r",
+            "teacherOf",
+            "takesCourse_r",
+            "teachingAssistantOf"
+        ]
+    },
+    "235": {
+        "mapping": "TODO",
+        "type": [
+            "teachingAssistantOf_r",
+            "publicationAuthor_r",
+            "publicationAuthor",
+            "advisor"
+        ]
+    },
+    "236": {
+        "mapping": "TODO",
+        "type": [
+            "teacherOf_r",
+            "advisor_r",
+            "takesCourse",
+            "takesCourse_r"
+        ]
+    },
+    "237": {
+        "mapping": "TODO",
+        "type": [
+            "advisor",
+            "advisor_r",
+            "takesCourse",
+            "teacherOf_r"
+        ]
+    },
+    "238": {
+        "mapping": "TODO",
+        "type": [
+            "takesCourse_r",
+            "teachingAssistantOf",
+            "takesCourse_r",
+            "advisor"
+        ]
+    },
+    "239": {
+        "mapping": "TODO",
+        "type": [
+            "publicationAuthor_r",
+            "publicationAuthor",
+            "advisor",
+            "advisor_r"
+        ]
+    },
+    "240": {
+        "mapping": "TODO",
+        "type": [
+            "takesCourse_r",
+            "publicationAuthor_r",
+            "publicationAuthor",
+            "publicationAuthor_r"
+        ]
+    },
+    "241": {
+        "mapping": "TODO",
+        "type": [
+            "teacherOf_r",
+            "publicationAuthor_r",
+            "publicationAuthor",
+            "advisor"
+        ]
+    },
+    "242": {
+        "mapping": "TODO",
+        "type": [
+            "takesCourse_r",
+            "advisor",
+            "teacherOf",
+            "teachingAssistantOf_r"
+        ]
+    },
+    "243": {
+        "mapping": "TODO",
+        "type": [
+            "publicationAuthor",
+            "teacherOf",
+            "takesCourse_r",
+            "advisor"
+        ]
+    },
+    "244": {
+        "mapping": "TODO",
+        "type": [
+            "publicationAuthor",
+            "advisor_r",
+            "publicationAuthor_r",
+            "publicationAuthor"
+        ]
+    },
+    "245": {
+        "mapping": "TODO",
+        "type": [
+            "takesCourse",
+            "teacherOf_r",
+            "teacherOf",
+            "teachingAssistantOf_r"
+        ]
+    },
+    "246": {
+        "mapping": "TODO",
+        "type": [
+            "takesCourse_r",
+            "takesCourse",
+            "teachingAssistantOf_r",
+            "publicationAuthor_r"
+        ]
+    },
+    "247": {
+        "mapping": "TODO",
+        "type": [
+            "teachingAssistantOf_r",
+            "advisor",
+            "publicationAuthor_r",
+            "publicationAuthor"
+        ]
+    },
+    "248": {
+        "mapping": "TODO",
+        "type": [
+            "teachingAssistantOf_r",
+            "advisor",
+            "advisor_r",
+            "takesCourse"
+        ]
+    },
+    "249": {
+        "mapping": "TODO",
+        "type": [
+            "takesCourse_r",
+            "takesCourse",
+            "teacherOf_r",
+            "advisor_r"
+        ]
+    },
+    "250": {
+        "mapping": "TODO",
+        "type": [
+            "publicationAuthor_r",
+            "publicationAuthor",
+            "teachingAssistantOf",
+            "takesCourse_r"
+        ]
+    },
+    "251": {
+        "mapping": "TODO",
+        "type": [
+            "publicationAuthor_r",
+            "publicationAuthor",
+            "advisor_r",
+            "takesCourse"
+        ]
+    },
+    "252": {
+        "mapping": "TODO",
+        "type": [
+            "takesCourse",
+            "teachingAssistantOf_r",
+            "takesCourse",
+            "teacherOf_r"
+        ]
+    },
+    "253": {
+        "mapping": "TODO",
+        "type": [
+            "teachingAssistantOf_r",
+            "takesCourse",
+            "takesCourse_r",
+            "teachingAssistantOf"
+        ]
+    },
+    "254": {
+        "mapping": "TODO",
+        "type": [
+            "advisor_r",
+            "publicationAuthor_r",
+            "publicationAuthor",
+            "advisor_r"
+        ]
+    },
+    "255": {
+        "mapping": "TODO",
+        "type": [
+            "takesCourse_r",
+            "advisor",
+            "teacherOf",
+            "takesCourse_r"
+        ]
+    },
+    "256": {
+        "mapping": "TODO",
+        "type": [
+            "teacherOf_r",
+            "advisor_r",
+            "publicationAuthor_r",
+            "publicationAuthor"
+        ]
+    },
+    "257": {
+        "mapping": "TODO",
+        "type": [
+            "takesCourse",
+            "teacherOf_r",
+            "teacherOf",
+            "takesCourse_r"
+        ]
+    },
+    "258": {
+        "mapping": "TODO",
+        "type": [
+            "publicationAuthor_r",
+            "publicationAuthor",
+            "advisor",
+            "publicationAuthor_r"
+        ]
+    },
+    "259": {
+        "mapping": "TODO",
+        "type": [
+            "advisor",
+            "publicationAuthor_r",
+            "publicationAuthor",
+            "advisor_r"
+        ]
+    },
+    "260": {
+        "mapping": "TODO",
+        "type": [
+            "publicationAuthor",
+            "teachingAssistantOf",
+            "teacherOf_r",
+            "advisor_r"
+        ]
+    },
+    "261": {
+        "mapping": "TODO",
+        "type": [
+            "advisor",
+            "teacherOf",
+            "takesCourse_r",
+            "publicationAuthor_r"
+        ]
+    },
+    "262": {
+        "mapping": "TODO",
+        "type": [
+            "takesCourse_r",
+            "publicationAuthor_r",
+            "publicationAuthor",
+            "takesCourse"
+        ]
+    },
+    "263": {
+        "mapping": "TODO",
+        "type": [
+            "advisor_r",
+            "publicationAuthor_r",
+            "publicationAuthor",
+            "teachingAssistantOf"
+        ]
+    },
+    "264": {
+        "mapping": "TODO",
+        "type": [
+            "publicationAuthor",
+            "publicationAuthor_r",
+            "publicationAuthor",
+            "advisor_r"
+        ]
+    },
+    "265": {
+        "mapping": "TODO",
+        "type": [
+            "publicationAuthor",
+            "advisor",
+            "teacherOf",
+            "teachingAssistantOf_r"
+        ]
+    },
+    "266": {
+        "mapping": "TODO",
+        "type": [
+            "takesCourse",
+            "takesCourse_r",
+            "publicationAuthor_r",
+            "publicationAuthor"
+        ]
+    },
+    "267": {
+        "mapping": "TODO",
+        "type": [
+            "teacherOf",
+            "takesCourse_r",
+            "teachingAssistantOf",
+            "takesCourse_r"
+        ]
+    },
+    "268": {
+        "mapping": "TODO",
+        "type": [
+            "takesCourse_r",
+            "takesCourse",
+            "teachingAssistantOf_r",
+            "takesCourse"
+        ]
+    },
+    "269": {
+        "mapping": "TODO",
+        "type": [
+            "teachingAssistantOf_r",
+            "takesCourse",
+            "teacherOf_r",
+            "publicationAuthor_r"
+        ]
+    },
+    "270": {
+        "mapping": "TODO",
+        "type": [
+            "advisor",
+            "publicationAuthor_r",
+            "publicationAuthor",
+            "teachingAssistantOf"
+        ]
+    },
+    "271": {
+        "mapping": "TODO",
+        "type": [
+            "publicationAuthor",
+            "teachingAssistantOf",
+            "teacherOf_r",
+            "publicationAuthor_r"
+        ]
+    },
+    "272": {
+        "mapping": "TODO",
+        "type": [
+            "publicationAuthor",
+            "publicationAuthor_r",
+            "publicationAuthor",
+            "teachingAssistantOf"
+        ]
+    },
+    "273": {
+        "mapping": "TODO",
+        "type": [
+            "publicationAuthor",
+            "takesCourse",
+            "takesCourse_r",
+            "publicationAuthor_r"
+        ]
+    },
+    "274": {
+        "mapping": "TODO",
+        "type": [
+            "teachingAssistantOf",
+            "teacherOf_r",
+            "advisor_r",
+            "publicationAuthor_r"
+        ]
+    },
+    "275": {
+        "mapping": "TODO",
+        "type": [
+            "advisor_r",
+            "takesCourse",
+            "teacherOf_r",
+            "advisor_r"
+        ]
+    },
+    "276": {
+        "mapping": "TODO",
+        "type": [
+            "publicationAuthor",
+            "teachingAssistantOf",
+            "takesCourse_r",
+            "advisor"
+        ]
+    },
+    "277": {
+        "mapping": "TODO",
+        "type": [
+            "teacherOf",
+            "takesCourse_r",
+            "advisor",
+            "teacherOf"
+        ]
+    },
+    "278": {
+        "mapping": "TODO",
+        "type": [
+            "teachingAssistantOf_r",
+            "advisor",
+            "advisor_r",
+            "teachingAssistantOf"
+        ]
+    },
+    "279": {
+        "mapping": "TODO",
+        "type": [
+            "takesCourse_r",
+            "publicationAuthor_r",
+            "publicationAuthor",
+            "advisor_r"
+        ]
+    },
+    "280": {
+        "mapping": "TODO",
+        "type": [
+            "advisor",
+            "publicationAuthor_r",
+            "publicationAuthor",
+            "takesCourse"
+        ]
+    },
+    "281": {
+        "mapping": "TODO",
+        "type": [
+            "advisor_r",
+            "teachingAssistantOf",
+            "takesCourse_r",
+            "advisor"
+        ]
+    },
+    "282": {
+        "mapping": "TODO",
+        "type": [
+            "publicationAuthor",
+            "takesCourse",
+            "takesCourse_r",
+            "takesCourse"
+        ]
+    },
+    "283": {
+        "mapping": "TODO",
+        "type": [
+            "teachingAssistantOf",
+            "teacherOf_r",
+            "advisor_r",
+            "takesCourse"
+        ]
+    },
+    "284": {
+        "mapping": "TODO",
+        "type": [
+            "teacherOf_r",
+            "teacherOf",
+            "teachingAssistantOf_r",
+            "publicationAuthor_r"
+        ]
+    },
+    "285": {
+        "mapping": "TODO",
+        "type": [
+            "takesCourse_r",
+            "takesCourse",
+            "takesCourse_r",
+            "advisor"
+        ]
+    },
+    "286": {
+        "mapping": "TODO",
+        "type": [
+            "publicationAuthor",
+            "advisor_r",
+            "teachingAssistantOf",
+            "takesCourse_r"
+        ]
+    },
+    "287": {
+        "mapping": "TODO",
+        "type": [
+            "teacherOf",
+            "teachingAssistantOf_r",
+            "takesCourse",
+            "takesCourse_r"
+        ]
+    },
+    "288": {
+        "mapping": "TODO",
+        "type": [
+            "publicationAuthor",
+            "takesCourse",
+            "teacherOf_r",
+            "teacherOf"
+        ]
+    },
+    "289": {
+        "mapping": "TODO",
+        "type": [
+            "takesCourse_r",
+            "publicationAuthor_r",
+            "publicationAuthor",
+            "teachingAssistantOf"
+        ]
+    },
+    "290": {
+        "mapping": "TODO",
+        "type": [
+            "publicationAuthor",
+            "teacherOf",
+            "teachingAssistantOf_r",
+            "advisor"
+        ]
+    },
+    "291": {
+        "mapping": "TODO",
+        "type": [
+            "teacherOf",
+            "teachingAssistantOf_r",
+            "advisor",
+            "advisor_r"
+        ]
+    },
+    "292": {
+        "mapping": "TODO",
+        "type": [
+            "teachingAssistantOf",
+            "takesCourse_r",
+            "takesCourse",
+            "teacherOf_r"
+        ]
+    },
+    "293": {
+        "mapping": "TODO",
+        "type": [
+            "teachingAssistantOf",
+            "takesCourse_r",
+            "advisor",
+            "teacherOf"
+        ]
+    },
+    "294": {
+        "mapping": "TODO",
+        "type": [
+            "advisor",
+            "teacherOf",
+            "teachingAssistantOf_r",
+            "advisor"
+        ]
+    },
+    "98": {
+        "mapping": "TODO",
+        "type": [
+            "teacherOf",
+            "takesCourse_r",
+            "takesCourse",
+            "teachingAssistantOf_r"
+        ]
+    },
+    "99": {
+        "mapping": "TODO",
+        "type": [
+            "teachingAssistantOf_r",
+            "publicationAuthor_r",
+            "publicationAuthor",
+            "publicationAuthor_r"
+        ]
+    },
+    "299": {
+        "mapping": "TODO",
+        "type": [
+            "teachingAssistantOf",
+            "teacherOf_r",
+            "teacherOf",
+            "teachingAssistantOf_r"
+        ]
+    }
+}

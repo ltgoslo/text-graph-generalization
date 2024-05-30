@@ -1,0 +1,2564 @@
+{
+    "0": {
+        "mapping": "Does X teach a course that has a student who is a teaching assistant in Y?",
+        "type": [
+            "teacherOf",
+            "takesCourse_r",
+            "teachingAssistantOf"
+        ]
+    },
+    "1": {
+        "mapping": "Was X written by the supervisor of a person that wrote Y?",
+        "type": [
+            "publicationAuthor",
+            "advisor_r",
+            "publicationAuthor_r"
+        ]
+    },
+    "10": {
+        "mapping": "Is X the supervisor of someone that wrote an article that was written by Y?",
+        "type": [
+            "advisor_r",
+            "publicationAuthor_r",
+            "publicationAuthor"
+        ]
+    },
+    "12": {
+        "mapping": "Does X have a teaching assistant that takes a course which has a student named Y?",
+        "type": [
+            "teachingAssistantOf_r",
+            "takesCourse",
+            "takesCourse_r"
+        ]
+    },
+    "13": {
+        "mapping": "Did X write a paper that was written by a teacher of Y?",
+        "type": [
+            "publicationAuthor_r",
+            "publicationAuthor",
+            "teacherOf"
+        ]
+    },
+    "14": {
+        "mapping": "Does X have a student that takes a course taught by Y?",
+        "type": [
+            "takesCourse_r",
+            "takesCourse",
+            "takesCourse_r"
+        ]
+    },
+    "15": {
+        "mapping": "Does X take a course that has a student that wrote Y?",
+        "type": [
+            "takesCourse",
+            "takesCourse_r",
+            "publicationAuthor_r"
+        ]
+    },
+    "16": {
+        "mapping": "Is X supervised by the author of a paper that was written by Y?",
+        "type": [
+            "advisor",
+            "publicationAuthor_r",
+            "publicationAuthor"
+        ]
+    },
+    "17": {
+        "mapping": "Is X a teaching assistant for a course which has a student supervised by Y?",
+        "type": [
+            "teachingAssistantOf",
+            "takesCourse_r",
+            "advisor"
+        ]
+    },
+    "18": {
+        "mapping": "Does X take a course that has a student that is a teaching assistant for Y?",
+        "type": [
+            "takesCourse",
+            "takesCourse_r",
+            "teachingAssistantOf"
+        ]
+    },
+    "19": {
+        "mapping": "Is X the teacher of a course which has a student that takes Y?",
+        "type": [
+            "teacherOf",
+            "takesCourse_r",
+            "takesCourse"
+        ]
+    },
+    "2": {
+        "mapping": "Is X the teacher of a course which has a teaching assistant that wrote Y?",
+        "type": [
+            "teacherOf",
+            "teachingAssistantOf_r",
+            "publicationAuthor_r"
+        ]
+    },
+    "20": {
+        "mapping": "Does X take a course which has a teaching assistant that wrote Y?",
+        "type": [
+            "takesCourse",
+            "teachingAssistantOf_r",
+            "publicationAuthor_r"
+        ]
+    },
+    "21": {
+        "mapping": "Does X have a student that wrote an article that was written by Y?",
+        "type": [
+            "takesCourse_r",
+            "publicationAuthor_r",
+            "publicationAuthor"
+        ]
+    },
+    "22": {
+        "mapping": "Is X the supervisor of someone taking a course that has a student named Y?",
+        "type": [
+            "advisor_r",
+            "takesCourse",
+            "takesCourse_r"
+        ]
+    },
+    "23": {
+        "mapping": "Does X have a teaching assistant that is supervised by a supervisor of Y?",
+        "type": [
+            "teachingAssistantOf_r",
+            "advisor",
+            "advisor_r"
+        ]
+    },
+    "24": {
+        "mapping": "Did X write a paper that was written by a supervisor of Y?",
+        "type": [
+            "publicationAuthor_r",
+            "publicationAuthor",
+            "advisor_r"
+        ]
+    },
+    "25": {
+        "mapping": "Does X have a student that is supervised by a teacher of Y?",
+        "type": [
+            "takesCourse_r",
+            "advisor",
+            "teacherOf"
+        ]
+    },
+    "26": {
+        "mapping": "Was X written by a teaching assistant of a course taken by Y?",
+        "type": [
+            "publicationAuthor",
+            "teachingAssistantOf",
+            "takesCourse_r"
+        ]
+    },
+    "27": {
+        "mapping": "Was X written by the supervisor of a student that takes Y?",
+        "type": [
+            "publicationAuthor",
+            "advisor_r",
+            "takesCourse"
+        ]
+    },
+    "28": {
+        "mapping": "Is X the teacher of a course which as a student supervised by Y?",
+        "type": [
+            "teacherOf",
+            "takesCourse_r",
+            "advisor"
+        ]
+    },
+    "29": {
+        "mapping": "Is X the teacher of a course which has a teaching assistant taking Y?",
+        "type": [
+            "teacherOf",
+            "teachingAssistantOf_r",
+            "takesCourse"
+        ]
+    },
+    "3": {
+        "mapping": "Is X supervised by the supervisor of a student taking Y?",
+        "type": [
+            "advisor",
+            "advisor_r",
+            "takesCourse"
+        ]
+    },
+    "30": {
+        "mapping": "Does X have a teacher that is supervising an author of Y?",
+        "type": [
+            "teacherOf_r",
+            "advisor_r",
+            "publicationAuthor_r"
+        ]
+    },
+    "31": {
+        "mapping": "Does X have a teaching assistant that is supervised by an author of Y?",
+        "type": [
+            "teachingAssistantOf_r",
+            "advisor",
+            "publicationAuthor_r"
+        ]
+    },
+    "32": {
+        "mapping": "Does X have a teacher that is supervising a teaching assistant of Y?",
+        "type": [
+            "teacherOf_r",
+            "advisor_r",
+            "teachingAssistantOf"
+        ]
+    },
+    "33": {
+        "mapping": "Was X written by someone that wrote an article that was written by Y?",
+        "type": [
+            "publicationAuthor",
+            "publicationAuthor_r",
+            "publicationAuthor"
+        ]
+    },
+    "34": {
+        "mapping": "Did X write a paper that was written by an author of Y?",
+        "type": [
+            "publicationAuthor_r",
+            "publicationAuthor",
+            "publicationAuthor_r"
+        ]
+    },
+    "35": {
+        "mapping": "Does X have a student that is supervised by a supervisor of Y?",
+        "type": [
+            "takesCourse_r",
+            "advisor",
+            "advisor_r"
+        ]
+    },
+    "36": {
+        "mapping": "Does X have a student that is a teaching assistant of a course taught by Y?",
+        "type": [
+            "takesCourse_r",
+            "teachingAssistantOf",
+            "teacherOf_r"
+        ]
+    },
+    "37": {
+        "mapping": "Does X take a course which has a student that takes Y?",
+        "type": [
+            "takesCourse",
+            "takesCourse_r",
+            "takesCourse"
+        ]
+    },
+    "38": {
+        "mapping": "Did X write a paper that was written by the teaching assistant of Y?",
+        "type": [
+            "publicationAuthor_r",
+            "publicationAuthor",
+            "teachingAssistantOf"
+        ]
+    },
+    "39": {
+        "mapping": "Is X a teaching assistant of a course taught by a supervisor of Y?",
+        "type": [
+            "teachingAssistantOf",
+            "teacherOf_r",
+            "advisor_r"
+        ]
+    },
+    "4": {
+        "mapping": "Is X taught by an author of an article written by Y?",
+        "type": [
+            "teacherOf_r",
+            "publicationAuthor_r",
+            "publicationAuthor"
+        ]
+    },
+    "40": {
+        "mapping": "Is X taught by a teacher of a course that has a student named Y?",
+        "type": [
+            "teacherOf_r",
+            "teacherOf",
+            "takesCourse_r"
+        ]
+    },
+    "41": {
+        "mapping": "Is X a teaching assistant for a course taught by an author of Y?",
+        "type": [
+            "teachingAssistantOf",
+            "teacherOf_r",
+            "publicationAuthor_r"
+        ]
+    },
+    "42": {
+        "mapping": "Does X have a student that is supervised by an author of Y?",
+        "type": [
+            "takesCourse_r",
+            "advisor",
+            "publicationAuthor_r"
+        ]
+    },
+    "43": {
+        "mapping": "Does X take a course that has a student supervised by Y?",
+        "type": [
+            "takesCourse",
+            "takesCourse_r",
+            "advisor"
+        ]
+    },
+    "44": {
+        "mapping": "Does X take a course that has a teaching assistant that takes Y?",
+        "type": [
+            "takesCourse",
+            "teachingAssistantOf_r",
+            "takesCourse"
+        ]
+    },
+    "45": {
+        "mapping": "Does X take a course that has a teaching assistant supervised by Y?",
+        "type": [
+            "takesCourse",
+            "teachingAssistantOf_r",
+            "advisor"
+        ]
+    },
+    "46": {
+        "mapping": "Is X taught by a supervisor of a student taking Y?",
+        "type": [
+            "teacherOf_r",
+            "advisor_r",
+            "takesCourse"
+        ]
+    },
+    "47": {
+        "mapping": "Was X written by a supervisor of a teacher of Y?",
+        "type": [
+            "publicationAuthor",
+            "advisor",
+            "teacherOf"
+        ]
+    },
+    "48": {
+        "mapping": "Does X have a teaching assistant that takes a course taught by Y?",
+        "type": [
+            "teachingAssistantOf_r",
+            "takesCourse",
+            "teacherOf_r"
+        ]
+    },
+    "49": {
+        "mapping": "Was X written by someone taking a course which has a student named Y?",
+        "type": [
+            "publicationAuthor",
+            "takesCourse",
+            "takesCourse_r"
+        ]
+    },
+    "5": {
+        "mapping": "Is X a teaching assistant for a course that has a student that takes Y?",
+        "type": [
+            "teachingAssistantOf",
+            "takesCourse_r",
+            "takesCourse"
+        ]
+    },
+    "50": {
+        "mapping": "Did X write a paper that was written by someone taking Y?",
+        "type": [
+            "publicationAuthor_r",
+            "publicationAuthor",
+            "takesCourse"
+        ]
+    },
+    "51": {
+        "mapping": "Does X have a student that is taking a course taught by Y?",
+        "type": [
+            "takesCourse_r",
+            "takesCourse",
+            "teacherOf_r"
+        ]
+    },
+    "52": {
+        "mapping": "Is X supervised by the teacher of a course which has a teaching assistant named Y?",
+        "type": [
+            "advisor",
+            "teacherOf",
+            "teachingAssistantOf_r"
+        ]
+    },
+    "53": {
+        "mapping": "Does X take a course that is taught by a teacher of Y?",
+        "type": [
+            "takesCourse",
+            "teacherOf_r",
+            "teacherOf"
+        ]
+    },
+    "54": {
+        "mapping": "Is X the supervisor of someone taking a course taught by Y?",
+        "type": [
+            "advisor_r",
+            "takesCourse",
+            "teacherOf_r"
+        ]
+    },
+    "55": {
+        "mapping": "Was X written by someone supervised by the supervisor of Y?",
+        "type": [
+            "publicationAuthor",
+            "advisor",
+            "advisor_r"
+        ]
+    },
+    "56": {
+        "mapping": "Was X written by a teaching assistant of a course taught by Y?",
+        "type": [
+            "publicationAuthor",
+            "teachingAssistantOf",
+            "teacherOf_r"
+        ]
+    },
+    "57": {
+        "mapping": "Did X write a paper that was written by someone supervised by Y?",
+        "type": [
+            "publicationAuthor_r",
+            "publicationAuthor",
+            "advisor"
+        ]
+    },
+    "58": {
+        "mapping": "Is X supervised by a teacher of a course which has a student named Y?",
+        "type": [
+            "advisor",
+            "teacherOf",
+            "takesCourse_r"
+        ]
+    },
+    "59": {
+        "mapping": "Is X supervised by the supervisor of a teaching assistant of Y?",
+        "type": [
+            "advisor",
+            "advisor_r",
+            "teachingAssistantOf"
+        ]
+    },
+    "6": {
+        "mapping": "Does X take a course that has a student taking a course where a teaching assistant is named Y?",
+        "type": [
+            "takesCourse_r",
+            "takesCourse",
+            "teachingAssistantOf_r"
+        ]
+    },
+    "60": {
+        "mapping": "Does X take a course that has a teacher supervising Y?",
+        "type": [
+            "takesCourse",
+            "teacherOf_r",
+            "advisor_r"
+        ]
+    },
+    "61": {
+        "mapping": "Is X supervised by the supervisor of an author of Y?",
+        "type": [
+            "advisor",
+            "advisor_r",
+            "publicationAuthor_r"
+        ]
+    },
+    "62": {
+        "mapping": "Was X written by someone supervised by the author of Y?",
+        "type": [
+            "publicationAuthor",
+            "advisor",
+            "publicationAuthor_r"
+        ]
+    },
+    "63": {
+        "mapping": "Was X written by the teacher of a course which has a teaching assistant named Y?",
+        "type": [
+            "publicationAuthor",
+            "teacherOf",
+            "teachingAssistantOf_r"
+        ]
+    },
+    "64": {
+        "mapping": "Does X take a course that has a teacher that wrote Y?",
+        "type": [
+            "takesCourse",
+            "teacherOf_r",
+            "publicationAuthor_r"
+        ]
+    },
+    "65": {
+        "mapping": "Does X have a student that is a teaching assistant of a course that has a student named Y?",
+        "type": [
+            "takesCourse_r",
+            "teachingAssistantOf",
+            "takesCourse_r"
+        ]
+    },
+    "66": {
+        "mapping": "Is X the teacher of a course that has a student that wrote Y?",
+        "type": [
+            "teacherOf",
+            "takesCourse_r",
+            "publicationAuthor_r"
+        ]
+    },
+    "67": {
+        "mapping": "Was X written by a teacher of a course that has a student named Y?",
+        "type": [
+            "publicationAuthor",
+            "teacherOf",
+            "takesCourse_r"
+        ]
+    },
+    "68": {
+        "mapping": "Was X written by a supervisor of a teaching assistant of Y?",
+        "type": [
+            "publicationAuthor",
+            "advisor_r",
+            "teachingAssistantOf"
+        ]
+    },
+    "69": {
+        "mapping": "Is X the supervisor of a teaching assistant of a course that has a student named Y?",
+        "type": [
+            "advisor_r",
+            "teachingAssistantOf",
+            "takesCourse_r"
+        ]
+    },
+    "7": {
+        "mapping": "Does X have a teaching assistant that wrote an article that was written by Y?",
+        "type": [
+            "teachingAssistantOf_r",
+            "publicationAuthor_r",
+            "publicationAuthor"
+        ]
+    },
+    "71": {
+        "mapping": "Is X taught by a teacher of a course that has a teaching assistant named Y?",
+        "type": [
+            "teacherOf_r",
+            "teacherOf",
+            "teachingAssistantOf_r"
+        ]
+    },
+    "72": {
+        "mapping": "Is X the supervisor of a teaching assistant of a course taught by Y?",
+        "type": [
+            "advisor_r",
+            "teachingAssistantOf",
+            "teacherOf_r"
+        ]
+    },
+    "73": {
+        "mapping": "Is X a teaching assistant for a course taught by a teachor of Y?",
+        "type": [
+            "teachingAssistantOf",
+            "teacherOf_r",
+            "teacherOf"
+        ]
+    },
+    "74": {
+        "mapping": "Is X teaching a course that has a teaching assistant supervised by Y?",
+        "type": [
+            "teacherOf",
+            "teachingAssistantOf_r",
+            "advisor"
+        ]
+    },
+    "8": {
+        "mapping": "Was X written by a student taking a course taught by Y?",
+        "type": [
+            "publicationAuthor",
+            "takesCourse",
+            "teacherOf_r"
+        ]
+    },
+    "9": {
+        "mapping": "Is X the supervisor of a student taking a course which has a teaching assistant named Y?",
+        "type": [
+            "advisor_r",
+            "takesCourse",
+            "teachingAssistantOf_r"
+        ]
+    },
+    "75": {
+        "mapping": "Does X have a student that is supervised by Y?",
+        "type": [
+            "takesCourse_r",
+            "advisor"
+        ]
+    },
+    "76": {
+        "mapping": "Does X take a course that has a teaching assistant named Y?",
+        "type": [
+            "takesCourse",
+            "teachingAssistantOf_r"
+        ]
+    },
+    "77": {
+        "mapping": "Was X written by someone taking Y?",
+        "type": [
+            "publicationAuthor",
+            "takesCourse"
+        ]
+    },
+    "78": {
+        "mapping": "Is X a teaching assistant for a course taught by Y?",
+        "type": [
+            "teachingAssistantOf",
+            "teacherOf_r"
+        ]
+    },
+    "79": {
+        "mapping": "Does X have a student that is a teaching assistant of Y?",
+        "type": [
+            "takesCourse_r",
+            "teachingAssistantOf"
+        ]
+    },
+    "80": {
+        "mapping": "Does X have a teaching assistant that is the author of Y?",
+        "type": [
+            "teachingAssistantOf_r",
+            "publicationAuthor_r"
+        ]
+    },
+    "81": {
+        "mapping": "Does X take a course that has a student named Y?",
+        "type": [
+            "takesCourse",
+            "takesCourse_r"
+        ]
+    },
+    "82": {
+        "mapping": "Does X have a student that wrote Y?",
+        "type": [
+            "takesCourse_r",
+            "publicationAuthor_r"
+        ]
+    },
+    "83": {
+        "mapping": "Is X the supervisor of a teaching assistant of Y?",
+        "type": [
+            "advisor_r",
+            "teachingAssistantOf"
+        ]
+    },
+    "84": {
+        "mapping": "Is X supervised by the supervisor of Y?",
+        "type": [
+            "advisor",
+            "advisor_r"
+        ]
+    },
+    "85": {
+        "mapping": "Does X have a teaching assistant that is taking Y?",
+        "type": [
+            "teachingAssistantOf_r",
+            "takesCourse"
+        ]
+    },
+    "86": {
+        "mapping": "Does X have a student that is also taking Y?",
+        "type": [
+            "takesCourse_r",
+            "takesCourse"
+        ]
+    },
+    "87": {
+        "mapping": "Is X a teaching assistant for a course that has a student named Y?",
+        "type": [
+            "teachingAssistantOf",
+            "takesCourse_r"
+        ]
+    },
+    "88": {
+        "mapping": "Did X write a paper that was also written by Y?",
+        "type": [
+            "publicationAuthor_r",
+            "publicationAuthor"
+        ]
+    },
+    "89": {
+        "mapping": "Is X the supervisor of someone taking Y?",
+        "type": [
+            "advisor_r",
+            "takesCourse"
+        ]
+    },
+    "90": {
+        "mapping": "Does X have a teacher that is an author of Y?",
+        "type": [
+            "teacherOf_r",
+            "publicationAuthor_r"
+        ]
+    },
+    "91": {
+        "mapping": "Is X teaching a course that has a teaching assistant named Y?",
+        "type": [
+            "teacherOf",
+            "teachingAssistantOf_r"
+        ]
+    },
+    "92": {
+        "mapping": "Does X have a teacher that is also teaching Y?",
+        "type": [
+            "teacherOf_r",
+            "teacherOf"
+        ]
+    },
+    "93": {
+        "mapping": "Was X written by the teaching assistant of Y?",
+        "type": [
+            "publicationAuthor",
+            "teachingAssistantOf"
+        ]
+    },
+    "94": {
+        "mapping": "Is X teaching a course that has a student named Y?",
+        "type": [
+            "teacherOf",
+            "takesCourse_r"
+        ]
+    },
+    "95": {
+        "mapping": "Does X take a course that is taught by Y?",
+        "type": [
+            "takesCourse",
+            "teacherOf_r"
+        ]
+    },
+    "96": {
+        "mapping": "Was X written by someone that teaches Y?",
+        "type": [
+            "publicationAuthor",
+            "teacherOf"
+        ]
+    },
+    "97": {
+        "mapping": "Does X have a teaching assistant that is supervised by Y?",
+        "type": [
+            "teachingAssistantOf_r",
+            "advisor"
+        ]
+    },
+    "100": {
+        "mapping": "Is X supervised by the supervisor of a student taking a course with a teaching assistant named Y?",
+        "type": [
+            "advisor",
+            "advisor_r",
+            "takesCourse",
+            "teachingAssistantOf_r"
+        ]
+    },
+    "101": {
+        "mapping": "Does X have a teacher that is also teaching a course where a teaching assistant is taking Y?",
+        "type": [
+            "teacherOf_r",
+            "teacherOf",
+            "teachingAssistantOf_r",
+            "takesCourse"
+        ]
+    },
+    "102": {
+        "mapping": "Is X the supervisor of a teaching assistant of a course taught by the supervisor of Y?",
+        "type": [
+            "advisor_r",
+            "teachingAssistantOf",
+            "teacherOf_r",
+            "advisor_r"
+        ]
+    },
+    "103": {
+        "mapping": "Is X the supervisor of a student taking a course which has a teaching assistant supervised by Y?",
+        "type": [
+            "advisor_r",
+            "takesCourse",
+            "teachingAssistantOf_r",
+            "advisor"
+        ]
+    },
+    "104": {
+        "mapping": "Does X have a teacher that is an author of a paper that was also written by the author of Y?",
+        "type": [
+            "teacherOf_r",
+            "publicationAuthor_r",
+            "publicationAuthor",
+            "publicationAuthor_r"
+        ]
+    },
+    "105": {
+        "mapping": "Does X have a teacher that is supervising a teaching assistant of course with a student named Y?",
+        "type": [
+            "teacherOf_r",
+            "advisor_r",
+            "teachingAssistantOf",
+            "takesCourse_r"
+        ]
+    },
+    "106": {
+        "mapping": "Is X supervised by the supervisor of a teaching assistant of a course with a student named Y?",
+        "type": [
+            "advisor",
+            "advisor_r",
+            "teachingAssistantOf",
+            "teacherOf_r"
+        ]
+    },
+    "107": {
+        "mapping": "Does X take a course that has a teaching assistant supervised by the teacher of Y?",
+        "type": [
+            "takesCourse",
+            "teachingAssistantOf_r",
+            "advisor",
+            "teacherOf"
+        ]
+    },
+    "108": {
+        "mapping": "Is X teaching a course that has a student that is taking a course with a student named Y?",
+        "type": [
+            "teacherOf",
+            "takesCourse_r",
+            "takesCourse",
+            "takesCourse_r"
+        ]
+    },
+    "109": {
+        "mapping": "Is X teaching a course that has a teaching assistant supervised by the author of Y?",
+        "type": [
+            "teacherOf",
+            "teachingAssistantOf_r",
+            "advisor",
+            "publicationAuthor_r"
+        ]
+    },
+    "110": {
+        "mapping": "Is X supervised by a teacher of a course which has a student that is a teaching assistant of Y?",
+        "type": [
+            "advisor",
+            "teacherOf",
+            "takesCourse_r",
+            "teachingAssistantOf"
+        ]
+    },
+    "111": {
+        "mapping": "Was X written by the teacher of a course that has a student that wrote Y?",
+        "type": [
+            "publicationAuthor",
+            "teacherOf",
+            "takesCourse_r",
+            "publicationAuthor_r"
+        ]
+    },
+    "112": {
+        "mapping": "Is X supervised by the supervisor of a student taking a course that has a student named Y?",
+        "type": [
+            "advisor",
+            "advisor_r",
+            "takesCourse",
+            "takesCourse_r"
+        ]
+    },
+    "113": {
+        "mapping": "Does X have a teaching assistant that is supervised by the teacher of a course with a student named Y?",
+        "type": [
+            "teachingAssistantOf_r",
+            "advisor",
+            "teacherOf",
+            "takesCourse_r"
+        ]
+    },
+    "114": {
+        "mapping": "Does X have a student that is taking a course where the teacher is also teaching Y?",
+        "type": [
+            "takesCourse_r",
+            "takesCourse",
+            "teacherOf_r",
+            "teacherOf"
+        ]
+    },
+    "115": {
+        "mapping": "Does X have a teaching assistant that is an author of a paper that was also written by a student taking Y?",
+        "type": [
+            "teachingAssistantOf_r",
+            "publicationAuthor_r",
+            "publicationAuthor",
+            "takesCourse"
+        ]
+    },
+    "116": {
+        "mapping": "Did X write a paper that was also written by someone registered for a course taught by Y?",
+        "type": [
+            "publicationAuthor_r",
+            "publicationAuthor",
+            "takesCourse",
+            "teacherOf_r"
+        ]
+    },
+    "117": {
+        "mapping": "Does X have a student that is a teaching assistant of a course with a student that is also taking Y?",
+        "type": [
+            "takesCourse_r",
+            "teachingAssistantOf",
+            "takesCourse_r",
+            "takesCourse"
+        ]
+    },
+    "118": {
+        "mapping": "Is X the supervisor of someone that wrote a paper that was also written by the teacher of Y?",
+        "type": [
+            "advisor_r",
+            "publicationAuthor_r",
+            "publicationAuthor",
+            "teacherOf"
+        ]
+    },
+    "119": {
+        "mapping": "Does X have a student that is a teaching assistant of a course taught by someone teaching Y?",
+        "type": [
+            "takesCourse_r",
+            "teachingAssistantOf",
+            "teacherOf_r",
+            "teacherOf"
+        ]
+    },
+    "120": {
+        "mapping": "Is X the supervisor of a teaching assistant of a course taught by someone that wrote Y?",
+        "type": [
+            "advisor_r",
+            "teachingAssistantOf",
+            "teacherOf_r",
+            "publicationAuthor_r"
+        ]
+    },
+    "121": {
+        "mapping": "Does X have a teacher that is supervising someone taking a course taught by Y?",
+        "type": [
+            "teacherOf_r",
+            "advisor_r",
+            "takesCourse",
+            "teacherOf_r"
+        ]
+    },
+    "122": {
+        "mapping": "Is X the supervisor of someone taking a course that has a student that wrote Y?",
+        "type": [
+            "advisor_r",
+            "takesCourse",
+            "takesCourse_r",
+            "publicationAuthor_r"
+        ]
+    },
+    "123": {
+        "mapping": "Does X have a teacher that wrote a paper also written by someone registered for Y?",
+        "type": [
+            "teacherOf_r",
+            "publicationAuthor_r",
+            "publicationAuthor",
+            "takesCourse"
+        ]
+    },
+    "124": {
+        "mapping": "Was X written by someone taking a course that has a student which is a teaching assistant of Y?",
+        "type": [
+            "publicationAuthor",
+            "takesCourse",
+            "takesCourse_r",
+            "teachingAssistantOf"
+        ]
+    },
+    "125": {
+        "mapping": "Does X take a course that has a teaching assistant taking a course with a student named Y?",
+        "type": [
+            "takesCourse",
+            "teachingAssistantOf_r",
+            "takesCourse",
+            "takesCourse_r"
+        ]
+    },
+    "126": {
+        "mapping": "Does X take a course that has a student supervised by the teacher of Y?",
+        "type": [
+            "takesCourse",
+            "takesCourse_r",
+            "advisor",
+            "teacherOf"
+        ]
+    },
+    "127": {
+        "mapping": "Is X teaching a course that has a student that wrote a paper also written by Y?",
+        "type": [
+            "teacherOf",
+            "takesCourse_r",
+            "publicationAuthor_r",
+            "publicationAuthor"
+        ]
+    },
+    "128": {
+        "mapping": "Was X written by the teacher of a course that has a student also registered for Y?",
+        "type": [
+            "publicationAuthor",
+            "teacherOf",
+            "takesCourse_r",
+            "takesCourse"
+        ]
+    },
+    "129": {
+        "mapping": "Does X take a course that has a student that also takes a course taught by Y?",
+        "type": [
+            "takesCourse",
+            "takesCourse_r",
+            "takesCourse",
+            "teacherOf_r"
+        ]
+    },
+    "130": {
+        "mapping": "Was X written by someone that wrote a paper also written by the teacher of Y?",
+        "type": [
+            "publicationAuthor",
+            "publicationAuthor_r",
+            "publicationAuthor",
+            "teacherOf"
+        ]
+    },
+    "131": {
+        "mapping": "Is X supervised by the teacher of a course that has a student that also takes Y?",
+        "type": [
+            "advisor",
+            "teacherOf",
+            "takesCourse_r",
+            "takesCourse"
+        ]
+    },
+    "132": {
+        "mapping": "Does X have a teacher that is also teaching a course that has a student supervised by Y?",
+        "type": [
+            "teacherOf_r",
+            "teacherOf",
+            "takesCourse_r",
+            "advisor"
+        ]
+    },
+    "133": {
+        "mapping": "Is X the supervisor of someone taking a course that has a student that also takes Y?",
+        "type": [
+            "advisor_r",
+            "takesCourse",
+            "takesCourse_r",
+            "takesCourse"
+        ]
+    },
+    "134": {
+        "mapping": "Does X have a student that is also taking a course where a teaching assistant is supervised by Y?",
+        "type": [
+            "takesCourse_r",
+            "takesCourse",
+            "teachingAssistantOf_r",
+            "advisor"
+        ]
+    },
+    "135": {
+        "mapping": "Does X take a course that has a student that is a teaching assistant in a course taught by Y?",
+        "type": [
+            "takesCourse",
+            "takesCourse_r",
+            "teachingAssistantOf",
+            "teacherOf_r"
+        ]
+    },
+    "136": {
+        "mapping": "Does X have a teaching assistant that is an author of a paper also written by the supervisor of Y?",
+        "type": [
+            "teachingAssistantOf_r",
+            "publicationAuthor_r",
+            "publicationAuthor",
+            "advisor_r"
+        ]
+    },
+    "137": {
+        "mapping": "Is X the supervisor of a student taking a course taught by someone also teaching Y?",
+        "type": [
+            "advisor_r",
+            "takesCourse",
+            "teacherOf_r",
+            "teacherOf"
+        ]
+    },
+    "138": {
+        "mapping": "Does X have a teaching assistant taking a course that has a student supervised by Y?",
+        "type": [
+            "teachingAssistantOf_r",
+            "takesCourse",
+            "takesCourse_r",
+            "advisor"
+        ]
+    },
+    "139": {
+        "mapping": "Does X have a teacher that is an author of a paper also written by the supervisor of Y?",
+        "type": [
+            "teacherOf_r",
+            "publicationAuthor_r",
+            "publicationAuthor",
+            "advisor_r"
+        ]
+    },
+    "140": {
+        "mapping": "Does X have a student that wrote a paper also written by the teacher of Y?",
+        "type": [
+            "takesCourse_r",
+            "publicationAuthor_r",
+            "publicationAuthor",
+            "teacherOf"
+        ]
+    },
+    "141": {
+        "mapping": "Does X have a teaching assistant that is an author of a paper also written by a teaching assistant of Y?",
+        "type": [
+            "teachingAssistantOf_r",
+            "publicationAuthor_r",
+            "publicationAuthor",
+            "teachingAssistantOf"
+        ]
+    },
+    "142": {
+        "mapping": "Does X have a student that is taking a course that has a student that wrote Y?",
+        "type": [
+            "takesCourse_r",
+            "takesCourse",
+            "takesCourse_r",
+            "publicationAuthor_r"
+        ]
+    },
+    "143": {
+        "mapping": "Was X written by someone supervised by the supervisor of an author of Y?",
+        "type": [
+            "publicationAuthor",
+            "advisor",
+            "advisor_r",
+            "publicationAuthor_r"
+        ]
+    },
+    "144": {
+        "mapping": "Is X the supervisor of an author a paper also written by someone supervised by Y?",
+        "type": [
+            "advisor_r",
+            "publicationAuthor_r",
+            "publicationAuthor",
+            "advisor"
+        ]
+    },
+    "145": {
+        "mapping": "Was X written by the supervisor of someone taking a course taught by Y?",
+        "type": [
+            "publicationAuthor",
+            "advisor_r",
+            "takesCourse",
+            "teacherOf_r"
+        ]
+    },
+    "146": {
+        "mapping": "Does X have a teacher that wrote a paper also written by the teaching assistant of Y?",
+        "type": [
+            "teacherOf_r",
+            "publicationAuthor_r",
+            "publicationAuthor",
+            "teachingAssistantOf"
+        ]
+    },
+    "147": {
+        "mapping": "Is X a teaching assistant of a course that has a student also registered for a course where a teaching assistant is named Y?",
+        "type": [
+            "teachingAssistantOf",
+            "takesCourse_r",
+            "takesCourse",
+            "teachingAssistantOf_r"
+        ]
+    },
+    "148": {
+        "mapping": "Is X supervised by the author of a paper also written by someone supervised by Y?",
+        "type": [
+            "advisor",
+            "publicationAuthor_r",
+            "publicationAuthor",
+            "advisor"
+        ]
+    },
+    "149": {
+        "mapping": "Was X written by someone supervised by the author of a paper also written by Y?",
+        "type": [
+            "publicationAuthor",
+            "advisor",
+            "publicationAuthor_r",
+            "publicationAuthor"
+        ]
+    },
+    "150": {
+        "mapping": "Was X written by the teacher of a course that has a student which is a teaching assistant of Y?",
+        "type": [
+            "publicationAuthor",
+            "teacherOf",
+            "takesCourse_r",
+            "teachingAssistantOf"
+        ]
+    },
+    "151": {
+        "mapping": "Is X supervised by a teacher of a course that has a teaching assistant that wrote Y?",
+        "type": [
+            "advisor",
+            "teacherOf",
+            "teachingAssistantOf_r",
+            "publicationAuthor_r"
+        ]
+    },
+    "152": {
+        "mapping": "Was X written by a student taking a course that has a student supervised by Y?",
+        "type": [
+            "publicationAuthor",
+            "takesCourse",
+            "takesCourse_r",
+            "advisor"
+        ]
+    },
+    "153": {
+        "mapping": "Did X write a paper that was also written by someone supervised by the teacher of Y?",
+        "type": [
+            "publicationAuthor_r",
+            "publicationAuthor",
+            "advisor",
+            "teacherOf"
+        ]
+    },
+    "154": {
+        "mapping": "Is X the teacher of a course that has a teaching assistant that wrote a paper also written by Y?",
+        "type": [
+            "teacherOf",
+            "teachingAssistantOf_r",
+            "publicationAuthor_r",
+            "publicationAuthor"
+        ]
+    },
+    "155": {
+        "mapping": "Did X write a paper also written by the teacher of a course that has a student named Y?",
+        "type": [
+            "publicationAuthor_r",
+            "publicationAuthor",
+            "teacherOf",
+            "takesCourse_r"
+        ]
+    },
+    "156": {
+        "mapping": "Was X written by someone that also wrote a paper written by someone supervised by Y?",
+        "type": [
+            "publicationAuthor",
+            "publicationAuthor_r",
+            "publicationAuthor",
+            "advisor"
+        ]
+    },
+    "157": {
+        "mapping": "Is X the supervisor of a teaching assistant of a course that has a student that takes Y?",
+        "type": [
+            "advisor_r",
+            "teachingAssistantOf",
+            "takesCourse_r",
+            "takesCourse"
+        ]
+    },
+    "158": {
+        "mapping": "Is X a teaching assistant for a course that has a student that also takes a course that has a student named Y?",
+        "type": [
+            "teachingAssistantOf",
+            "takesCourse_r",
+            "takesCourse",
+            "takesCourse_r"
+        ]
+    },
+    "159": {
+        "mapping": "Does X have a student that takes a course that has a student that also takes Y?",
+        "type": [
+            "takesCourse_r",
+            "takesCourse",
+            "takesCourse_r",
+            "takesCourse"
+        ]
+    },
+    "160": {
+        "mapping": "Is X the supervisor of a student taking a course that has a teaching assistant that wrote Y?",
+        "type": [
+            "advisor_r",
+            "takesCourse",
+            "teachingAssistantOf_r",
+            "publicationAuthor_r"
+        ]
+    },
+    "161": {
+        "mapping": "Is X the teacher of a course that has a student supervised by the supervisor of Y?",
+        "type": [
+            "teacherOf",
+            "takesCourse_r",
+            "advisor",
+            "advisor_r"
+        ]
+    },
+    "162": {
+        "mapping": "Was X written by someone supervised by the supervisor of a student taking Y?",
+        "type": [
+            "publicationAuthor",
+            "advisor",
+            "advisor_r",
+            "takesCourse"
+        ]
+    },
+    "163": {
+        "mapping": "Does X take a course that has a student supervised by the author of Y?",
+        "type": [
+            "takesCourse",
+            "takesCourse_r",
+            "advisor",
+            "publicationAuthor_r"
+        ]
+    },
+    "164": {
+        "mapping": "Is X the supervisor of a student taking a course that has a student that is a teaching assistant of Y?",
+        "type": [
+            "advisor_r",
+            "takesCourse",
+            "takesCourse_r",
+            "teachingAssistantOf"
+        ]
+    },
+    "165": {
+        "mapping": "Does X have a teaching assistant that takes a course taught by the teacher of Y?",
+        "type": [
+            "teachingAssistantOf_r",
+            "takesCourse",
+            "teacherOf_r",
+            "teacherOf"
+        ]
+    },
+    "166": {
+        "mapping": "Is X supervised by the teacher of a course that has a teaching assistant taking Y?",
+        "type": [
+            "advisor",
+            "teacherOf",
+            "teachingAssistantOf_r",
+            "takesCourse"
+        ]
+    },
+    "167": {
+        "mapping": "Is X supervised by the author of a paper also written by the teacher of Y?",
+        "type": [
+            "advisor",
+            "publicationAuthor_r",
+            "publicationAuthor",
+            "teacherOf"
+        ]
+    },
+    "168": {
+        "mapping": "Was X written by a teaching assistant of a course taught by the teacher of Y?",
+        "type": [
+            "publicationAuthor",
+            "teachingAssistantOf",
+            "teacherOf_r",
+            "teacherOf"
+        ]
+    },
+    "169": {
+        "mapping": "Is X supervised by the supervisor of a teaching assistant of a course that has a student named Y?",
+        "type": [
+            "advisor",
+            "advisor_r",
+            "teachingAssistantOf",
+            "takesCourse_r"
+        ]
+    },
+    "170": {
+        "mapping": "Is X supervised by the supervisor of an author of a paper also written by Y?",
+        "type": [
+            "advisor",
+            "advisor_r",
+            "publicationAuthor_r",
+            "publicationAuthor"
+        ]
+    },
+    "171": {
+        "mapping": "Does X have a student supervised by the supervisor of an author of Y?",
+        "type": [
+            "takesCourse_r",
+            "advisor",
+            "advisor_r",
+            "publicationAuthor_r"
+        ]
+    },
+    "172": {
+        "mapping": "Is X the teacher of a course that has a student supervised by the author of Y?",
+        "type": [
+            "teacherOf",
+            "takesCourse_r",
+            "advisor",
+            "publicationAuthor_r"
+        ]
+    },
+    "173": {
+        "mapping": "Does X take a course taught by the supervisor of someone that wrote Y?",
+        "type": [
+            "takesCourse",
+            "teacherOf_r",
+            "advisor_r",
+            "publicationAuthor_r"
+        ]
+    },
+    "174": {
+        "mapping": "Is X the supervisor of a student taking a course that has a teaching assistant that takes Y?",
+        "type": [
+            "advisor_r",
+            "takesCourse",
+            "teachingAssistantOf_r",
+            "takesCourse"
+        ]
+    },
+    "175": {
+        "mapping": "Did X write a paper that was also written by the teaching assistant of a course taught by Y?",
+        "type": [
+            "publicationAuthor_r",
+            "publicationAuthor",
+            "teachingAssistantOf",
+            "teacherOf_r"
+        ]
+    },
+    "176": {
+        "mapping": "Does X have a student that wrote a paper also written by someone supervised by Y?",
+        "type": [
+            "takesCourse_r",
+            "publicationAuthor_r",
+            "publicationAuthor",
+            "advisor"
+        ]
+    },
+    "177": {
+        "mapping": "Did X write a paper also written by someone taking a course that has a student named Y?",
+        "type": [
+            "publicationAuthor_r",
+            "publicationAuthor",
+            "takesCourse",
+            "takesCourse_r"
+        ]
+    },
+    "178": {
+        "mapping": "Does X have a teacher that is a supervisor of a teaching assistant of a course taught by Y?",
+        "type": [
+            "teacherOf_r",
+            "advisor_r",
+            "teachingAssistantOf",
+            "teacherOf_r"
+        ]
+    },
+    "179": {
+        "mapping": "Did X write a paper also written by the supervisor of someone that wrote Y?",
+        "type": [
+            "publicationAuthor_r",
+            "publicationAuthor",
+            "advisor_r",
+            "publicationAuthor_r"
+        ]
+    },
+    "180": {
+        "mapping": "Does X take a course that has a student that takes a course that has a teaching assistant named Y?",
+        "type": [
+            "takesCourse",
+            "takesCourse_r",
+            "takesCourse",
+            "teachingAssistantOf_r"
+        ]
+    },
+    "181": {
+        "mapping": "Was X written by someone taking a course taught by an author of Y?",
+        "type": [
+            "publicationAuthor",
+            "takesCourse",
+            "teacherOf_r",
+            "publicationAuthor_r"
+        ]
+    },
+    "182": {
+        "mapping": "Does X have a teacher that also teaches a course that has a student that wrote Y?",
+        "type": [
+            "teacherOf_r",
+            "teacherOf",
+            "takesCourse_r",
+            "publicationAuthor_r"
+        ]
+    },
+    "183": {
+        "mapping": "Does X take a course that has a teaching assistant supervised by the supervisor of Y?",
+        "type": [
+            "takesCourse",
+            "teachingAssistantOf_r",
+            "advisor",
+            "advisor_r"
+        ]
+    },
+    "184": {
+        "mapping": "Is X a teaching assistant for a course that has a student supervised by the author of Y?",
+        "type": [
+            "teachingAssistantOf",
+            "takesCourse_r",
+            "advisor",
+            "publicationAuthor_r"
+        ]
+    },
+    "185": {
+        "mapping": "Does X have a student supervised by the author of a paper also written by Y?",
+        "type": [
+            "takesCourse_r",
+            "advisor",
+            "publicationAuthor_r",
+            "publicationAuthor"
+        ]
+    },
+    "186": {
+        "mapping": "Does X have a student supervised by the supervisor of someone taking Y?",
+        "type": [
+            "takesCourse_r",
+            "advisor",
+            "advisor_r",
+            "takesCourse"
+        ]
+    },
+    "187": {
+        "mapping": "Does X take a course taught by the author of a paper also written by Y?",
+        "type": [
+            "takesCourse",
+            "teacherOf_r",
+            "publicationAuthor_r",
+            "publicationAuthor"
+        ]
+    },
+    "188": {
+        "mapping": "Does X take a course that has a student also taking a course that has a student named Y?",
+        "type": [
+            "takesCourse",
+            "takesCourse_r",
+            "takesCourse",
+            "takesCourse_r"
+        ]
+    },
+    "189": {
+        "mapping": "Does X take a course taught by the supervisor of someone taking Y?",
+        "type": [
+            "takesCourse",
+            "teacherOf_r",
+            "advisor_r",
+            "takesCourse"
+        ]
+    },
+    "190": {
+        "mapping": "Is X the teacher of a course that has a student that is a teaching assistant for a course taught by Y?",
+        "type": [
+            "teacherOf",
+            "takesCourse_r",
+            "teachingAssistantOf",
+            "teacherOf_r"
+        ]
+    },
+    "191": {
+        "mapping": "Is X supervised by the teacher of a course that has a student supervised by Y?",
+        "type": [
+            "advisor",
+            "teacherOf",
+            "takesCourse_r",
+            "advisor"
+        ]
+    },
+    "192": {
+        "mapping": "Does X have a student that also takes a course that has a student who is a teaching assistant in Y?",
+        "type": [
+            "takesCourse_r",
+            "takesCourse",
+            "takesCourse_r",
+            "teachingAssistantOf"
+        ]
+    },
+    "193": {
+        "mapping": "Did X write a paper also written by the author of a paper that was also written by Y?",
+        "type": [
+            "publicationAuthor_r",
+            "publicationAuthor",
+            "publicationAuthor_r",
+            "publicationAuthor"
+        ]
+    },
+    "194": {
+        "mapping": "Was X written by someone supervised by the supervisor of a teaching assistant of Y? ",
+        "type": [
+            "publicationAuthor",
+            "advisor",
+            "advisor_r",
+            "teachingAssistantOf"
+        ]
+    },
+    "195": {
+        "mapping": "Does X have a student that is a teaching assistant of a course taught by the supervisor of Y?",
+        "type": [
+            "takesCourse_r",
+            "teachingAssistantOf",
+            "teacherOf_r",
+            "advisor_r"
+        ]
+    },
+    "196": {
+        "mapping": "Does X have a teaching assistant that is an author of a paper also written by the teacher of Y?",
+        "type": [
+            "teachingAssistantOf_r",
+            "publicationAuthor_r",
+            "publicationAuthor",
+            "teacherOf"
+        ]
+    },
+    "197": {
+        "mapping": "Does X take a course that has a teaching assistant supervised by the author of Y?",
+        "type": [
+            "takesCourse",
+            "teachingAssistantOf_r",
+            "advisor",
+            "publicationAuthor_r"
+        ]
+    },
+    "198": {
+        "mapping": "Does X have a teacher that also teaches a course that has a student also taking Y?",
+        "type": [
+            "teacherOf_r",
+            "teacherOf",
+            "takesCourse_r",
+            "takesCourse"
+        ]
+    },
+    "199": {
+        "mapping": "Does X take a course that has a student who is a teaching assistant in a course with a student named Y?",
+        "type": [
+            "takesCourse",
+            "takesCourse_r",
+            "teachingAssistantOf",
+            "takesCourse_r"
+        ]
+    },
+    "200": {
+        "mapping": "Does X take a course that has a teaching assistant that wrote a paper also written by Y?",
+        "type": [
+            "takesCourse",
+            "teachingAssistantOf_r",
+            "publicationAuthor_r",
+            "publicationAuthor"
+        ]
+    },
+    "201": {
+        "mapping": "Is X the supervisor of someone taking a course that has a student supervised by Y?",
+        "type": [
+            "advisor_r",
+            "takesCourse",
+            "takesCourse_r",
+            "advisor"
+        ]
+    },
+    "202": {
+        "mapping": "Did X write a paper that was also written by the teacher of a course that has a teaching assistant named Y?",
+        "type": [
+            "publicationAuthor_r",
+            "publicationAuthor",
+            "teacherOf",
+            "teachingAssistantOf_r"
+        ]
+    },
+    "203": {
+        "mapping": "Does X take a course that has a student supervised by the supervisor of Y?",
+        "type": [
+            "takesCourse",
+            "takesCourse_r",
+            "advisor",
+            "advisor_r"
+        ]
+    },
+    "204": {
+        "mapping": "Is X a teaching assistant for a course taught by the teacher of a course that has a student named Y?",
+        "type": [
+            "teachingAssistantOf",
+            "teacherOf_r",
+            "teacherOf",
+            "takesCourse_r"
+        ]
+    },
+    "205": {
+        "mapping": "Was X written by the teacher of a course that has a teaching assistant that wrote Y?",
+        "type": [
+            "publicationAuthor",
+            "teacherOf",
+            "teachingAssistantOf_r",
+            "publicationAuthor_r"
+        ]
+    },
+    "206": {
+        "mapping": "Does X have a teacher that is an author of a paper also written by a teacher of Y?",
+        "type": [
+            "teacherOf_r",
+            "publicationAuthor_r",
+            "publicationAuthor",
+            "teacherOf"
+        ]
+    },
+    "207": {
+        "mapping": "Does X have a teaching assistant taking a course that has a student who wrote Y?",
+        "type": [
+            "teachingAssistantOf_r",
+            "takesCourse",
+            "takesCourse_r",
+            "publicationAuthor_r"
+        ]
+    },
+    "208": {
+        "mapping": "Does X have a student also taking a course taught by the author of Y?",
+        "type": [
+            "takesCourse_r",
+            "takesCourse",
+            "teacherOf_r",
+            "publicationAuthor_r"
+        ]
+    },
+    "209": {
+        "mapping": "Is X the supervisor of an author of a paper also written by the author of Y?",
+        "type": [
+            "advisor_r",
+            "publicationAuthor_r",
+            "publicationAuthor",
+            "publicationAuthor_r"
+        ]
+    },
+    "210": {
+        "mapping": "Was X written by the supervisor of a student taking a course that has a teaching assistant named Y?",
+        "type": [
+            "publicationAuthor",
+            "advisor_r",
+            "takesCourse",
+            "teachingAssistantOf_r"
+        ]
+    },
+    "211": {
+        "mapping": "Does X have a student that is a teaching assistant of a course taught by an author of Y?",
+        "type": [
+            "takesCourse_r",
+            "teachingAssistantOf",
+            "teacherOf_r",
+            "publicationAuthor_r"
+        ]
+    },
+    "212": {
+        "mapping": "Is X supervised by an author of a paper also written by someone that wrote Y?",
+        "type": [
+            "advisor",
+            "publicationAuthor_r",
+            "publicationAuthor",
+            "publicationAuthor_r"
+        ]
+    },
+    "213": {
+        "mapping": "Was X written by someone supervised by the teacher of a course that has a student named Y?",
+        "type": [
+            "publicationAuthor",
+            "advisor",
+            "teacherOf",
+            "takesCourse_r"
+        ]
+    },
+    "214": {
+        "mapping": "Was X written by the supervisor of someone that is a teaching assistant for a course taught by Y?",
+        "type": [
+            "publicationAuthor",
+            "advisor_r",
+            "teachingAssistantOf",
+            "teacherOf_r"
+        ]
+    },
+    "215": {
+        "mapping": "Does X have a teaching assistant taking a course that has a student that is also taking Y?",
+        "type": [
+            "teachingAssistantOf_r",
+            "takesCourse",
+            "takesCourse_r",
+            "takesCourse"
+        ]
+    },
+    "216": {
+        "mapping": "Was X written by the teacher of a course that has a teaching assistant taking Y?",
+        "type": [
+            "publicationAuthor",
+            "teacherOf",
+            "teachingAssistantOf_r",
+            "takesCourse"
+        ]
+    },
+    "217": {
+        "mapping": "Was X written by the supervisor of someone taking a course that has a student named Y?",
+        "type": [
+            "publicationAuthor",
+            "advisor_r",
+            "takesCourse",
+            "takesCourse_r"
+        ]
+    },
+    "218": {
+        "mapping": "Is X the teacher of a course that has a teaching assistant taking a course taught by Y?",
+        "type": [
+            "teacherOf",
+            "teachingAssistantOf_r",
+            "takesCourse",
+            "teacherOf_r"
+        ]
+    },
+    "219": {
+        "mapping": "Was X written by someone that is also an author of a paper written by the author of Y?",
+        "type": [
+            "publicationAuthor",
+            "publicationAuthor_r",
+            "publicationAuthor",
+            "publicationAuthor_r"
+        ]
+    },
+    "220": {
+        "mapping": "Was X written by someone that is a teaching assistant of a course that has a student that is taking Y?",
+        "type": [
+            "publicationAuthor",
+            "teachingAssistantOf",
+            "takesCourse_r",
+            "takesCourse"
+        ]
+    },
+    "221": {
+        "mapping": "Does X have a student supervised by the supervisor of a teaching assistant of Y?",
+        "type": [
+            "takesCourse_r",
+            "advisor",
+            "advisor_r",
+            "teachingAssistantOf"
+        ]
+    },
+    "222": {
+        "mapping": "Does X have a teacher who teaches a course that has a teaching assistant supervised by Y?",
+        "type": [
+            "teacherOf_r",
+            "teacherOf",
+            "teachingAssistantOf_r",
+            "advisor"
+        ]
+    },
+    "223": {
+        "mapping": "Is X the supervisor of an author of a paper also written by someone taking Y?",
+        "type": [
+            "advisor_r",
+            "publicationAuthor_r",
+            "publicationAuthor",
+            "takesCourse"
+        ]
+    },
+    "224": {
+        "mapping": "Was X written by a student taking a course taught by the supervisor of Y?",
+        "type": [
+            "publicationAuthor",
+            "takesCourse",
+            "teacherOf_r",
+            "advisor_r"
+        ]
+    },
+    "225": {
+        "mapping": "Does X take a course taught by the supervisor of a teaching assistant of Y?",
+        "type": [
+            "takesCourse",
+            "teacherOf_r",
+            "advisor_r",
+            "teachingAssistantOf"
+        ]
+    },
+    "226": {
+        "mapping": "Does X have a teacher supervising a student taking a course that has a teaching assistant named Y?",
+        "type": [
+            "teacherOf_r",
+            "advisor_r",
+            "takesCourse",
+            "teachingAssistantOf_r"
+        ]
+    },
+    "227": {
+        "mapping": "Is X a teaching assistant for a course that has a student supervised by the supervisor of Y?",
+        "type": [
+            "teachingAssistantOf",
+            "takesCourse_r",
+            "advisor",
+            "advisor_r"
+        ]
+    },
+    "228": {
+        "mapping": "Did X write a paper also written by the supervisor of a teaching assistant of Y?",
+        "type": [
+            "publicationAuthor_r",
+            "publicationAuthor",
+            "advisor_r",
+            "teachingAssistantOf"
+        ]
+    },
+    "229": {
+        "mapping": "Is X a teaching assistant for a course taught by the author of a paper also written by Y?",
+        "type": [
+            "teachingAssistantOf",
+            "teacherOf_r",
+            "publicationAuthor_r",
+            "publicationAuthor"
+        ]
+    },
+    "230": {
+        "mapping": "Does X have a teaching assistant supervised by the supervisor of an author of Y?",
+        "type": [
+            "teachingAssistantOf_r",
+            "advisor",
+            "advisor_r",
+            "publicationAuthor_r"
+        ]
+    },
+    "231": {
+        "mapping": "Is X the supervisor of a student taking a course taught by the author of Y?",
+        "type": [
+            "advisor_r",
+            "takesCourse",
+            "teacherOf_r",
+            "publicationAuthor_r"
+        ]
+    },
+    "232": {
+        "mapping": "Is X teaching a course that has a student also taking a course taught by Y?",
+        "type": [
+            "teacherOf",
+            "takesCourse_r",
+            "takesCourse",
+            "teacherOf_r"
+        ]
+    },
+    "233": {
+        "mapping": "Was X written by the author of a paper also written by someone taking Y?",
+        "type": [
+            "publicationAuthor",
+            "publicationAuthor_r",
+            "publicationAuthor",
+            "takesCourse"
+        ]
+    },
+    "234": {
+        "mapping": "Does X have a teacher that also teaches a course that has a student who is a teaching assistant in ?",
+        "type": [
+            "teacherOf_r",
+            "teacherOf",
+            "takesCourse_r",
+            "teachingAssistantOf"
+        ]
+    },
+    "235": {
+        "mapping": "Does X have a teaching assistant that is an author of a paper also written by somone supervised by Y?",
+        "type": [
+            "teachingAssistantOf_r",
+            "publicationAuthor_r",
+            "publicationAuthor",
+            "advisor"
+        ]
+    },
+    "236": {
+        "mapping": "Does X have a teacher supervising a student taking a course that has a student named Y?",
+        "type": [
+            "teacherOf_r",
+            "advisor_r",
+            "takesCourse",
+            "takesCourse_r"
+        ]
+    },
+    "237": {
+        "mapping": "Is X supervised by the supervisor of a student taking a course taught by Y?",
+        "type": [
+            "advisor",
+            "advisor_r",
+            "takesCourse",
+            "teacherOf_r"
+        ]
+    },
+    "238": {
+        "mapping": "Does X have a student that is a teaching assistant of a course that has a student supervised by Y?",
+        "type": [
+            "takesCourse_r",
+            "teachingAssistantOf",
+            "takesCourse_r",
+            "advisor"
+        ]
+    },
+    "239": {
+        "mapping": "Did X write a paper also written by someone supervised by the supervisor of Y?",
+        "type": [
+            "publicationAuthor_r",
+            "publicationAuthor",
+            "advisor",
+            "advisor_r"
+        ]
+    },
+    "240": {
+        "mapping": "Does X have a student that is an author of a paper also written by the author of Y?",
+        "type": [
+            "takesCourse_r",
+            "publicationAuthor_r",
+            "publicationAuthor",
+            "publicationAuthor_r"
+        ]
+    },
+    "241": {
+        "mapping": "Does X have a teacher that is an author of a paper also written by someone supervised by Y?",
+        "type": [
+            "teacherOf_r",
+            "publicationAuthor_r",
+            "publicationAuthor",
+            "advisor"
+        ]
+    },
+    "242": {
+        "mapping": "Does X have a student supervised by the teacher of a class that has a teaching assistant named Y?",
+        "type": [
+            "takesCourse_r",
+            "advisor",
+            "teacherOf",
+            "teachingAssistantOf_r"
+        ]
+    },
+    "243": {
+        "mapping": "Was X written by the teacher of a class that has a student supervised by Y?",
+        "type": [
+            "publicationAuthor",
+            "teacherOf",
+            "takesCourse_r",
+            "advisor"
+        ]
+    },
+    "244": {
+        "mapping": "Was X written by the supervisor of an author of a paper also written by Y?",
+        "type": [
+            "publicationAuthor",
+            "advisor_r",
+            "publicationAuthor_r",
+            "publicationAuthor"
+        ]
+    },
+    "245": {
+        "mapping": "Does X take a course taught by the teacher of a course that has a teaching assistant named Y?",
+        "type": [
+            "takesCourse",
+            "teacherOf_r",
+            "teacherOf",
+            "teachingAssistantOf_r"
+        ]
+    },
+    "246": {
+        "mapping": "Does X have a student also taking a course that has a teaching assistant who wrote Y?",
+        "type": [
+            "takesCourse_r",
+            "takesCourse",
+            "teachingAssistantOf_r",
+            "publicationAuthor_r"
+        ]
+    },
+    "247": {
+        "mapping": "Does X have a teaching assistant supervised by the an author of a paper also written by Y?",
+        "type": [
+            "teachingAssistantOf_r",
+            "advisor",
+            "publicationAuthor_r",
+            "publicationAuthor"
+        ]
+    },
+    "248": {
+        "mapping": "Does X have a teaching assistant supervised by the supervisor of a student taking Y?",
+        "type": [
+            "teachingAssistantOf_r",
+            "advisor",
+            "advisor_r",
+            "takesCourse"
+        ]
+    },
+    "249": {
+        "mapping": "Does X have a student also taking a course taught by the supervisor of Y?",
+        "type": [
+            "takesCourse_r",
+            "takesCourse",
+            "teacherOf_r",
+            "advisor_r"
+        ]
+    },
+    "250": {
+        "mapping": "Did X write a paper also written by a teaching assistant of a course that has a student named Y?",
+        "type": [
+            "publicationAuthor_r",
+            "publicationAuthor",
+            "teachingAssistantOf",
+            "takesCourse_r"
+        ]
+    },
+    "251": {
+        "mapping": "Did X write a paper that was also written by the supervisor of a student taking Y?",
+        "type": [
+            "publicationAuthor_r",
+            "publicationAuthor",
+            "advisor_r",
+            "takesCourse"
+        ]
+    },
+    "252": {
+        "mapping": "Does X take a course that has a teaching assistant taking a course taught by Y?",
+        "type": [
+            "takesCourse",
+            "teachingAssistantOf_r",
+            "takesCourse",
+            "teacherOf_r"
+        ]
+    },
+    "253": {
+        "mapping": "Does X have a teaching assistant taking a course that has a student that is a teaching assistant in Y?",
+        "type": [
+            "teachingAssistantOf_r",
+            "takesCourse",
+            "takesCourse_r",
+            "teachingAssistantOf"
+        ]
+    },
+    "254": {
+        "mapping": "Is X the supervisor of an author of a paper also written by the supervisor of Y?",
+        "type": [
+            "advisor_r",
+            "publicationAuthor_r",
+            "publicationAuthor",
+            "advisor_r"
+        ]
+    },
+    "255": {
+        "mapping": "Does X have a student supervised by the teacher of a class that has a student named Y?",
+        "type": [
+            "takesCourse_r",
+            "advisor",
+            "teacherOf",
+            "takesCourse_r"
+        ]
+    },
+    "256": {
+        "mapping": "Does X have a teacher that is supervising an author of a paper also written by Y?",
+        "type": [
+            "teacherOf_r",
+            "advisor_r",
+            "publicationAuthor_r",
+            "publicationAuthor"
+        ]
+    },
+    "257": {
+        "mapping": "Does X take a course taught by the teacher of a course that has a student named Y?",
+        "type": [
+            "takesCourse",
+            "teacherOf_r",
+            "teacherOf",
+            "takesCourse_r"
+        ]
+    },
+    "258": {
+        "mapping": "Did X write a paper also written by someone supervised by an author of Y?",
+        "type": [
+            "publicationAuthor_r",
+            "publicationAuthor",
+            "advisor",
+            "publicationAuthor_r"
+        ]
+    },
+    "259": {
+        "mapping": "Is X supervised by an author of a paper also written by the supervisor of Y?",
+        "type": [
+            "advisor",
+            "publicationAuthor_r",
+            "publicationAuthor",
+            "advisor_r"
+        ]
+    },
+    "260": {
+        "mapping": "Was X written by a teaching assistant of a course taught by the supervisor of Y?",
+        "type": [
+            "publicationAuthor",
+            "teachingAssistantOf",
+            "teacherOf_r",
+            "advisor_r"
+        ]
+    },
+    "261": {
+        "mapping": "Is X supervised by a teacher of a course that has a student who wrote Y?",
+        "type": [
+            "advisor",
+            "teacherOf",
+            "takesCourse_r",
+            "publicationAuthor_r"
+        ]
+    },
+    "262": {
+        "mapping": "Does X have a student that is an author of a paper also written by someone taking Y?",
+        "type": [
+            "takesCourse_r",
+            "publicationAuthor_r",
+            "publicationAuthor",
+            "takesCourse"
+        ]
+    },
+    "263": {
+        "mapping": "Is X the supervisor of an author of a paper also written by someone who is a teaching assistant in Y?",
+        "type": [
+            "advisor_r",
+            "publicationAuthor_r",
+            "publicationAuthor",
+            "teachingAssistantOf"
+        ]
+    },
+    "264": {
+        "mapping": "Was X written by an author of a paper also written by the supervisor of Y?",
+        "type": [
+            "publicationAuthor",
+            "publicationAuthor_r",
+            "publicationAuthor",
+            "advisor_r"
+        ]
+    },
+    "265": {
+        "mapping": "Was X written by someone supervised by the teacher of a course that has a teaching assistant named Y?",
+        "type": [
+            "publicationAuthor",
+            "advisor",
+            "teacherOf",
+            "teachingAssistantOf_r"
+        ]
+    },
+    "266": {
+        "mapping": "Does X take a course that has a student that is an author of a paper also written by Y?",
+        "type": [
+            "takesCourse",
+            "takesCourse_r",
+            "publicationAuthor_r",
+            "publicationAuthor"
+        ]
+    },
+    "267": {
+        "mapping": "Is X the teacher of a course that has a student who is a teaching assistant in a course that has a student named Y?",
+        "type": [
+            "teacherOf",
+            "takesCourse_r",
+            "teachingAssistantOf",
+            "takesCourse_r"
+        ]
+    },
+    "268": {
+        "mapping": "Does X have a student that also takes a course where a teaching assistant is taking Y?",
+        "type": [
+            "takesCourse_r",
+            "takesCourse",
+            "teachingAssistantOf_r",
+            "takesCourse"
+        ]
+    },
+    "269": {
+        "mapping": "Does X have a teaching assistant taking a course taught by an author of Y?",
+        "type": [
+            "teachingAssistantOf_r",
+            "takesCourse",
+            "teacherOf_r",
+            "publicationAuthor_r"
+        ]
+    },
+    "270": {
+        "mapping": "Is X supervised by an author of a paper also written by someone who is a teaching assistant in Y?",
+        "type": [
+            "advisor",
+            "publicationAuthor_r",
+            "publicationAuthor",
+            "teachingAssistantOf"
+        ]
+    },
+    "271": {
+        "mapping": "Was X written by a teaching assistant in a course taught by an author of Y?",
+        "type": [
+            "publicationAuthor",
+            "teachingAssistantOf",
+            "teacherOf_r",
+            "publicationAuthor_r"
+        ]
+    },
+    "272": {
+        "mapping": "Was X written by an author of a paper also written by someone who is a teaching assistant in Y?",
+        "type": [
+            "publicationAuthor",
+            "publicationAuthor_r",
+            "publicationAuthor",
+            "teachingAssistantOf"
+        ]
+    },
+    "273": {
+        "mapping": "Was X written by a student taking a course that has a student who wrote Y?",
+        "type": [
+            "publicationAuthor",
+            "takesCourse",
+            "takesCourse_r",
+            "publicationAuthor_r"
+        ]
+    },
+    "274": {
+        "mapping": "Is X a teaching assistant for a course taught by the supervisor of an author of Y?",
+        "type": [
+            "teachingAssistantOf",
+            "teacherOf_r",
+            "advisor_r",
+            "publicationAuthor_r"
+        ]
+    },
+    "275": {
+        "mapping": "Is X the supervisor of a student taking a course taught by the supervisor of Y?",
+        "type": [
+            "advisor_r",
+            "takesCourse",
+            "teacherOf_r",
+            "advisor_r"
+        ]
+    },
+    "276": {
+        "mapping": "Was X written by a teaching assistant for a course that has a student supervised by Y?",
+        "type": [
+            "publicationAuthor",
+            "teachingAssistantOf",
+            "takesCourse_r",
+            "advisor"
+        ]
+    },
+    "277": {
+        "mapping": "Is X the teacher of a course that has a student supervised by the teacher of Y?",
+        "type": [
+            "teacherOf",
+            "takesCourse_r",
+            "advisor",
+            "teacherOf"
+        ]
+    },
+    "278": {
+        "mapping": "Does X have a teaching assistant supervised by the supervisor of someone who is a teaching assistant of Y?",
+        "type": [
+            "teachingAssistantOf_r",
+            "advisor",
+            "advisor_r",
+            "teachingAssistantOf"
+        ]
+    },
+    "279": {
+        "mapping": "Does X have a student that is an author of a paper also written by the supervisor of Y?",
+        "type": [
+            "takesCourse_r",
+            "publicationAuthor_r",
+            "publicationAuthor",
+            "advisor_r"
+        ]
+    },
+    "280": {
+        "mapping": "Is X supervised by an author of a paper also written by a student taking Y?",
+        "type": [
+            "advisor",
+            "publicationAuthor_r",
+            "publicationAuthor",
+            "takesCourse"
+        ]
+    },
+    "281": {
+        "mapping": "Is X the supervisor of a teaching assistant taking a course that has a student supervised by Y?",
+        "type": [
+            "advisor_r",
+            "teachingAssistantOf",
+            "takesCourse_r",
+            "advisor"
+        ]
+    },
+    "282": {
+        "mapping": "Was X written by a student taking a course that has a student that also takes Y?",
+        "type": [
+            "publicationAuthor",
+            "takesCourse",
+            "takesCourse_r",
+            "takesCourse"
+        ]
+    },
+    "283": {
+        "mapping": "Is X a teaching assistant for a course taught by the supervisor of a student taking Y?",
+        "type": [
+            "teachingAssistantOf",
+            "teacherOf_r",
+            "advisor_r",
+            "takesCourse"
+        ]
+    },
+    "284": {
+        "mapping": "Does X have a teacher that also teaches a course that has a teaching assistant that wrote Y?",
+        "type": [
+            "teacherOf_r",
+            "teacherOf",
+            "teachingAssistantOf_r",
+            "publicationAuthor_r"
+        ]
+    },
+    "285": {
+        "mapping": "Does X have a student that also takes a course that has a student supervised by Y?",
+        "type": [
+            "takesCourse_r",
+            "takesCourse",
+            "takesCourse_r",
+            "advisor"
+        ]
+    },
+    "286": {
+        "mapping": "Was X written by the supervisor of someone that is a teaching assistant in a course that has a student named Y?",
+        "type": [
+            "publicationAuthor",
+            "advisor_r",
+            "teachingAssistantOf",
+            "takesCourse_r"
+        ]
+    },
+    "287": {
+        "mapping": "Is X teaching a course that has a teaching assistant taking a course that has a student named Y?",
+        "type": [
+            "teacherOf",
+            "teachingAssistantOf_r",
+            "takesCourse",
+            "takesCourse_r"
+        ]
+    },
+    "288": {
+        "mapping": "Was X written by a student taking a course taught by someone that also teaches Y?",
+        "type": [
+            "publicationAuthor",
+            "takesCourse",
+            "teacherOf_r",
+            "teacherOf"
+        ]
+    },
+    "289": {
+        "mapping": "Does X have a student that is an author of a paper also written by someone who is a teaching assistant in Y?",
+        "type": [
+            "takesCourse_r",
+            "publicationAuthor_r",
+            "publicationAuthor",
+            "teachingAssistantOf"
+        ]
+    },
+    "290": {
+        "mapping": "Was X written by the teacher of a class that has a teaching assistant supervised by Y?",
+        "type": [
+            "publicationAuthor",
+            "teacherOf",
+            "teachingAssistantOf_r",
+            "advisor"
+        ]
+    },
+    "291": {
+        "mapping": "Is X the teacher of a course that has a teaching assistant supervised by the supervisor of Y?",
+        "type": [
+            "teacherOf",
+            "teachingAssistantOf_r",
+            "advisor",
+            "advisor_r"
+        ]
+    },
+    "292": {
+        "mapping": "Is X a teaching assistant for a course that has a student also taking a course taught by Y?",
+        "type": [
+            "teachingAssistantOf",
+            "takesCourse_r",
+            "takesCourse",
+            "teacherOf_r"
+        ]
+    },
+    "293": {
+        "mapping": "Is X a teaching assistant for a course that has a student supervised by the teacher of Y?",
+        "type": [
+            "teachingAssistantOf",
+            "takesCourse_r",
+            "advisor",
+            "teacherOf"
+        ]
+    },
+    "294": {
+        "mapping": "Is X supervised by a teacher of a course that has a teaching assistant supervised by Y?",
+        "type": [
+            "advisor",
+            "teacherOf",
+            "teachingAssistantOf_r",
+            "advisor"
+        ]
+    },
+    "98": {
+        "mapping": "Is X teaching a course that has a student also taking a course where a teaching assistant is named Y?",
+        "type": [
+            "teacherOf",
+            "takesCourse_r",
+            "takesCourse",
+            "teachingAssistantOf_r"
+        ]
+    },
+    "99": {
+        "mapping": "Does X have a teaching assistant that is an author of a paper also written by an author of Y?",
+        "type": [
+            "teachingAssistantOf_r",
+            "publicationAuthor_r",
+            "publicationAuthor",
+            "publicationAuthor_r"
+        ]
+    },
+    "295": {
+        "mapping": "Does X have a teaching assistant supervised by the teacher of Y?",
+        "type": [
+            "teachingAssistantOf_r",
+            "advisor",
+            "teacherOf"
+        ]
+    },
+    "296": {
+        "mapping": "Is X the supervisor of a teaching assistant of a course that has a teacher that also teaches Y?",
+        "type": [
+            "advisor_r",
+            "teachingAssistantOf",
+            "teacherOf_r",
+            "teacherOf"
+        ]
+    },
+    "297": {
+        "mapping": "Does X have a teaching assistant taking a course taught by the supervisor of Y?",
+        "type": [
+            "teachingAssistantOf_r",
+            "takesCourse",
+            "teacherOf_r",
+            "advisor_r"
+        ]
+    },
+    "298": {
+        "mapping": "Is X teaching a course that has a teaching assistant supervised by the teacher of Y?",
+        "type": [
+            "teacherOf",
+            "teachingAssistantOf_r",
+            "advisor",
+            "teacherOf"
+        ]
+    },
+    "299": {
+        "mapping": "Is X a teaching assistant for a course taught by the teacher of a course that has a teaching assistant named Y?",
+        "type": [
+            "teachingAssistantOf",
+            "teacherOf_r",
+            "teacherOf",
+            "teachingAssistantOf_r"
+        ]
+    }
+}
