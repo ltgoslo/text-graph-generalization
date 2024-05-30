@@ -46,3 +46,25 @@ python graph_sampler.py
 
 To produce the dataset samples for 3 and 4 hops, run the same command but
 swap the folder names and the `k` argument accordingly.
+
+### Creating the dataset splits
+Run `dataset.py` with `--task` being either `sys`, `subst` or `prod` to
+create the datasets used for the three experiments from the paper.
+
+### Running the dataset splits
+Run `train.py` with your desiered parameters. Consult the `argparse` for an
+explantion of the CLI. The file runs the experiments over a set of seeds
+provided by a white space seperated list to `--seed`.  
+
+The different models are selected by setting the following model-specific
+flags:
+- Baseline (gnn-only): `--gnn`
+- Disjoint: `--static`
+- Grounded: no flag
+- Unidirectional: `--unidirectional``
+- Bidirectional: `--unidirectional --bidirectional`
+
+### Results
+Results are logged to Wandb and written to a json file. 
+You can use ```write_results.py``` to aggreate the results across seeds and
+all models. 
