@@ -61,7 +61,7 @@ flags:
 - Baseline (gnn-only): `--gnn`
 - Disjoint: `--static`
 - Grounded: no flag
-- Unidirectional: `--unidirectional``
+- Unidirectional: `--unidirectional`
 - Bidirectional: `--unidirectional --bidirectional`
 
 ### Results
