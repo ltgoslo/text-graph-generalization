@@ -1,0 +1,182 @@
+{
+    "disjoint_subst_2_hop": {
+        "mean": 98.17,
+        "std": 0.39
+    },
+    "disjoint_subst_3_hop": {
+        "mean": 83.08,
+        "std": 0.96
+    },
+    "disjoint_subst_4_hop": {
+        "mean": 67.86,
+        "std": 1.89
+    },
+    "disjoint_prod_T2a3_V4": {
+        "mean": 59.42,
+        "std": 2.07
+    },
+    "disjoint_prod_T2a4_V3": {
+        "mean": 63.87,
+        "std": 2.24
+    },
+    "disjoint_prod_T3a4_V2": {
+        "mean": 60.34,
+        "std": 3.25
+    },
+    "disjoint_system_2_hop": {
+        "mean": 55.84,
+        "std": 12.66
+    },
+    "disjoint_system_3_hop": {
+        "mean": 67.44,
+        "std": 4.84
+    },
+    "disjoint_system_4_hop": {
+        "mean": 64.52,
+        "std": 4.68
+    },
+    "grounded_subst_2_hop": {
+        "mean": 92.46,
+        "std": 0.49
+    },
+    "grounded_subst_3_hop": {
+        "mean": 84.91,
+        "std": 0.38
+    },
+    "grounded_subst_4_hop": {
+        "mean": 69.32,
+        "std": 1.96
+    },
+    "grounded_prod_T2a3_V4": {
+        "mean": 61.79,
+        "std": 0.52
+    },
+    "grounded_prod_T2a4_V3": {
+        "mean": 66.1,
+        "std": 2.05
+    },
+    "grounded_prod_T3a4_V2": {
+        "mean": 62.32,
+        "std": 1.98
+    },
+    "grounded_system_2_hop": {
+        "mean": 55.23,
+        "std": 21.76
+    },
+    "grounded_system_3_hop": {
+        "mean": 72.55,
+        "std": 4.35
+    },
+    "grounded_system_4_hop": {
+        "mean": 64.29,
+        "std": 5.45
+    },
+    "gnn_subst_2_hop": {
+        "mean": 48.88,
+        "std": 1.0
+    },
+    "gnn_subst_3_hop": {
+        "mean": 49.8,
+        "std": 0.64
+    },
+    "gnn_subst_4_hop": {
+        "mean": 49.36,
+        "std": 0.44
+    },
+    "gnn_prod_T2a3_V4": {
+        "mean": 49.92,
+        "std": 0.82
+    },
+    "gnn_prod_T2a4_V3": {
+        "mean": 51.19,
+        "std": 0.31
+    },
+    "gnn_prod_T3a4_V2": {
+        "mean": 50.98,
+        "std": 0.25
+    },
+    "gnn_system_2_hop": {
+        "mean": 49.27,
+        "std": 0.87
+    },
+    "gnn_system_3_hop": {
+        "mean": 49.68,
+        "std": 0.54
+    },
+    "gnn_system_4_hop": {
+        "mean": 49.77,
+        "std": 0.75
+    },
+    "unidirectional_subst_2_hop": {
+        "mean": 91.78,
+        "std": 0.72
+    },
+    "unidirectional_subst_3_hop": {
+        "mean": 70.88,
+        "std": 3.53
+    },
+    "unidirectional_subst_4_hop": {
+        "mean": 62.0,
+        "std": 4.97
+    },
+    "unidirectional_prod_T2a3_V4": {
+        "mean": 62.4,
+        "std": 1.02
+    },
+    "unidirectional_prod_T2a4_V3": {
+        "mean": 66.65,
+        "std": 2.24
+    },
+    "unidirectional_prod_T3a4_V2": {
+        "mean": 64.04,
+        "std": 4.47
+    },
+    "unidirectional_system_2_hop": {
+        "mean": 55.42,
+        "std": 22.79
+    },
+    "unidirectional_system_3_hop": {
+        "mean": 66.52,
+        "std": 4.9
+    },
+    "unidirectional_system_4_hop": {
+        "mean": 61.96,
+        "std": 5.74
+    },
+    "bidirectional_subst_2_hop": {
+        "mean": 92.44,
+        "std": 0.23
+    },
+    "bidirectional_subst_3_hop": {
+        "mean": 73.66,
+        "std": 1.04
+    },
+    "bidirectional_subst_4_hop": {
+        "mean": 63.24,
+        "std": 4.36
+    },
+    "bidirectional_prod_T2a3_V4": {
+        "mean": 62.05,
+        "std": 0.91
+    },
+    "bidirectional_prod_T2a4_V3": {
+        "mean": 66.29,
+        "std": 1.25
+    },
+    "bidirectional_prod_T3a4_V2": {
+        "mean": 63.03,
+        "std": 3.76
+    },
+    "bidirectional_system_2_hop": {
+        "mean": 47.11,
+        "std": 22.64
+    },
+    "bidirectional_system_3_hop": {
+        "mean": 63.78,
+        "std": 7.54
+    },
+    "bidirectional_system_4_hop": {
+        "mean": 62.76,
+        "std": 5.92
+    }
+}
