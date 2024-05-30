@@ -52,8 +52,7 @@ Run `dataset.py` with `--task` being either `sys`, `subst` or `prod` to
 create the datasets used for the three experiments from the paper.
 
 ### Running the dataset splits
-Run `train.py` with your desiered parameters. Consult the `argparse` for an
-explantion of the CLI. The file runs the experiments over a set of seeds
+`train.py` runs all the experiments on the provided dataset splits. An axplantion of the CLI can be found in the `argpase` method in this file. The file runs the experiments over a set of seeds
 provided by a white space seperated list to `--seed`.  
 
 The different models are selected by setting the following model-specific
@@ -63,6 +62,9 @@ flags:
 - Grounded: no flag
 - Unidirectional: `--unidirectional`
 - Bidirectional: `--unidirectional --bidirectional`
+
+The hyperparameters we used for the experiments in the paper can be found
+in Appendix B.
 
 ### Results
 Results are logged to Wandb and written to a json file. 
