@@ -66,7 +66,28 @@ flags:
 The hyperparameters we used for the experiments in the paper can be found
 in Appendix B.
 
+### Requirements
+
+The experiments ran using the following specific packages, with Python
+`3.9.12`:
+
+```
+jsonlines==4.0.0
+networkx==3.2.1
+numpy==1.26.3
+safetensors==0.4.2
+tokenizers==0.15.1
+torch==1.11.0+rocm4.5.2
+torch-cluster==1.6.3
+torch-scatter==2.1.2
+torch-sparse==0.6.18
+torch-spline-conv==1.2.2
+torch_geometric==2.4.0
+transformers==4.37.1
+```
+
 ### Results
-Results are logged to Wandb and written to a json file. 
+Results are logged to Wandb and written to a json file.  The `--debug`
+flags disables Wandb logging.
 You can use ```write_results.py``` to aggreate the results across seeds and
 all models. 
