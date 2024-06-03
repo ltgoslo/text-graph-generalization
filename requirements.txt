@@ -1,0 +1,12 @@
+jsonlines==4.0.0
+networkx==3.2.1
+numpy==1.26.3
+safetensors==0.4.2
+tokenizers==0.15.1
+torch==1.11.0+rocm4.5.2
+torch-cluster==1.6.3
+torch-scatter==2.1.2
+torch-sparse==0.6.18
+torch-spline-conv==1.2.2
+torch_geometric==2.4.0
+transformers==4.37.1
