@@ -51,7 +51,7 @@ swap the folder names and the `k` argument accordingly.
 Run `dataset.py` with `--task` being either `sys`, `subst` or `prod` to
 create the datasets used for the three experiments from the paper.
 
-### Running the dataset splits
+### Running the experiments
 `train.py` runs all the experiments on the provided dataset splits. An axplantion of the CLI can be found in the `argpase` method in this file. The file runs the experiments over a set of seeds
 provided by a white space seperated list to `--seed`.  
 
